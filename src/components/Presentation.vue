@@ -21,7 +21,6 @@ export default {
   },
   methods:{
     showContent(){
-      console.log('tizil')
       this.changeContent();
     }
   }

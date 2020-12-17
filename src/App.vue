@@ -40,4 +40,8 @@ export default {
   background: rgb(0,119,189);
   background: linear-gradient(147deg, rgba(0,119,189,1) 13%, rgba(1,156,255,1) 100%);
 }
+.degrade{
+  background: rgb(0,119,189);
+  background: linear-gradient(147deg, rgba(0,119,189,1) 13%, rgba(1,156,255,1) 100%);
+}
 </style>
