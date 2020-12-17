@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-row style="margin-top: 15%;">
+    <v-row style="margin-top: 10%;">
       <v-col cols="12">
         <h1>Boletim Virtual Uespi 2020</h1>
       </v-col>

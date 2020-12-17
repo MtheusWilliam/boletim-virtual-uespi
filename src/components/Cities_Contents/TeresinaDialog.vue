@@ -1,44 +1,6 @@
 <template>
   <v-container>
     <v-row style="margin-top: 7%;">
-      <v-dialog
-        v-model="dialog"
-        width="500"
-      >
-        <v-card>
-            <v-card-title class="headline dark" color="red accent-4">
-                Boletim Cidade 2020
-            </v-card-title>
-            <v-card-text>
-                <!-- <v-select
-                    v-model="funcionario"
-                    :items="funcionarios"
-                    item-text="nome"
-                    item-value="id"
-                    label="Status"
-                    dense
-                    solo
-                ></v-select> -->
-            </v-card-text>
-            <v-card-actions>
-                <v-spacer></v-spacer>
-                <v-btn
-                    color="grey"
-                    text
-                >
-                    <v-icon>mdi-add</v-icon>
-                    Cancelar
-                </v-btn>
-                <v-btn
-                    color="red accent-4"
-                    text
-                >
-                    <v-icon>mdi-add</v-icon>
-                    Adicionar
-                </v-btn>
-            </v-card-actions>
-        </v-card>
-      </v-dialog>
       <v-col cols="12">
           <v-img :src="require('../assets/piaui_mapa.png')" class="my-3" contain max-height="600">
             <v-row>
@@ -217,7 +179,7 @@
 
 <script>
 export default {
-//CIDADES
+//cidades
 // -Parnaíba OK
 // -Piripiri OK
 // -Campo Maior OK
@@ -229,9 +191,6 @@ export default {
 // -São Raimundo Nonato OK
 // -Bom Jesus OK
 // -Corrente OK
-  data: () => ({
-    dialog: false
-  }),
 }
 </script>
 
