@@ -59,7 +59,7 @@ export default {
                         },
                     ],
                     relatorioAcoesExtensionistas: [],
-                    levantamentoBolsas: []
+                    levantamentoBolsas: {}
                 }
             },
             teresinaTorquato: {
@@ -73,217 +73,234 @@ export default {
                     levantamentoBolsas: []
                 }
             },
-            parnaiba:{
+            parnaiba: {
                 title: 'CAMPUS PROF. ALEXANDRE ALVES DE OLIVEIRA / PARNAÍBA',
                 subtitle: 'TERRITÓRIO: PLANÍCIE LITORÂNEA',
                 content: {
                     //OK
                     acoesExtensionistas: [
                         {
-                          curso: 'Bacharelado em Ciência da Computação',
-                          areas: 'Comunicação e Tecnologia',
-                          tipo: 'PROJETO DE EXTENSÃO',
-                          projetos: 'APRENDENDO LÓGICA ESTRUTURAL TEXTUAL E LATEX: PROCEDIMENTOS LÓGICOS PARA PRODUÇÕES CIENTÍFICAS E ACADÊMICAS UTILIZANDO COMO RECURSO A TIPOGRAFIA LATEX',
-                          coordenador: 'Danilo Borges da Silva',
-                          situacao: 'Cadastrado',
+                            curso: 'Bacharelado em Ciência da Computação',
+                            areas: 'Comunicação e Tecnologia',
+                            tipo: 'PROJETO DE EXTENSÃO',
+                            projetos: 'APRENDENDO LÓGICA ESTRUTURAL TEXTUAL E LATEX: PROCEDIMENTOS LÓGICOS PARA PRODUÇÕES CIENTÍFICAS E ACADÊMICAS UTILIZANDO COMO RECURSO A TIPOGRAFIA LATEX',
+                            coordenador: 'Danilo Borges da Silva',
+                            situacao: 'Cadastrado',
                         },
                         {
-                          curso: 'Bacharelado em Ciência da Computação',
-                          areas: 'Comunicação, Educação, Saúde e Tecnologia',
-                          tipo: '-',
-                          projetos: 'PROGRAMA ILUMINADO: EDUCAÇÃO, ROBÓTICA E SAÚDE PARA FAMÍLIAS EM SITUAÇÃO DE RISCO SOCIAL DA PERIFERIA DE PARNAÍBA-PI',
-                          coordenador: 'Dário Brito Calçada',
-                          situacao: 'Cadastrado',
+                            curso: 'Bacharelado em Ciência da Computação',
+                            areas: 'Comunicação, Educação, Saúde e Tecnologia',
+                            tipo: '-',
+                            projetos: 'PROGRAMA ILUMINADO: EDUCAÇÃO, ROBÓTICA E SAÚDE PARA FAMÍLIAS EM SITUAÇÃO DE RISCO SOCIAL DA PERIFERIA DE PARNAÍBA-PI',
+                            coordenador: 'Dário Brito Calçada',
+                            situacao: 'Cadastrado',
                         },
                         {
-                          curso: 'Bacharelado em Ciência da Computação',
-                          areas: 'Comunicação, Educação e Tecnologia',
-                          tipo: 'PROGRAMA DE EXTENSÃO',
-                          projetos: 'TRANSFORMAÇÃO DIGITAL: FOMENTANDO O DESENVOLVIMENTO DIGITAL DE CRIANÇAS, JOVENS, ADULTOS E IDOSOS.',
-                          coordenador: 'Dário Brito Calçada | Danilo Borges da Silva | Suzana Matos França de Oliveira',
-                          situacao: 'Cadastrado',
+                            curso: 'Bacharelado em Ciência da Computação',
+                            areas: 'Comunicação, Educação e Tecnologia',
+                            tipo: 'PROGRAMA DE EXTENSÃO',
+                            projetos: 'TRANSFORMAÇÃO DIGITAL: FOMENTANDO O DESENVOLVIMENTO DIGITAL DE CRIANÇAS, JOVENS, ADULTOS E IDOSOS.',
+                            coordenador: 'Dário Brito Calçada | Danilo Borges da Silva | Suzana Matos França de Oliveira',
+                            situacao: 'Cadastrado',
                         },
-              
+
                         {
-                          curso: 'Bacharelado em Ciência da Computação',
-                          areas: 'Tecnologia',
-                          tipo: 'PROJETO DE EXTENSÃO',
-                          projetos: 'PROJETO DE EXTENSÃO CURSO DE LÓGICA DE PROGRAMAÇÃO',
-                          coordenador: 'Francisco das Chagas Rocha',
-                          situacao: 'Cadastrado',
+                            curso: 'Bacharelado em Ciência da Computação',
+                            areas: 'Tecnologia',
+                            tipo: 'PROJETO DE EXTENSÃO',
+                            projetos: 'PROJETO DE EXTENSÃO CURSO DE LÓGICA DE PROGRAMAÇÃO',
+                            coordenador: 'Francisco das Chagas Rocha',
+                            situacao: 'Cadastrado',
                         },
-              
+
                         {
-                          curso: 'Bacharelado em Ciência da Computação',
-                          areas: 'Tecnologia',
-                          tipo: 'PROJETO DE EXTENSÃO',
-                          projetos: 'CURSO DE RACIOCÍNIO LÓGICO PARA ENTENDIMENTO DE ELETRÔNICA',
-                          coordenador: 'Sérgio Barros de Sousa',
-                          situacao: 'Cadastrado',
+                            curso: 'Bacharelado em Ciência da Computação',
+                            areas: 'Tecnologia',
+                            tipo: 'PROJETO DE EXTENSÃO',
+                            projetos: 'CURSO DE RACIOCÍNIO LÓGICO PARA ENTENDIMENTO DE ELETRÔNICA',
+                            coordenador: 'Sérgio Barros de Sousa',
+                            situacao: 'Cadastrado',
                         },
-              
+
                         {
-                          curso: 'Lic. Plena em Filosofia',
-                          areas: 'Cultura',
-                          tipo: 'PROJETO DE EXTENSÃO',
-                          projetos: 'INTRODUÇÃO A CRÍTICA DA RAZÃO PURA',
-                          coordenador: 'Francisco Winston José da Silva | Sorainy de Oliveira Mangueira',
-                          situacao: 'Cadastrado',
+                            curso: 'Lic. Plena em Filosofia',
+                            areas: 'Cultura',
+                            tipo: 'PROJETO DE EXTENSÃO',
+                            projetos: 'INTRODUÇÃO A CRÍTICA DA RAZÃO PURA',
+                            coordenador: 'Francisco Winston José da Silva | Sorainy de Oliveira Mangueira',
+                            situacao: 'Cadastrado',
                         },
-              
+
                         {
-                          curso: 'Lic. Plena em Filosofia',
-                          areas: 'Cultura e Educação',
-                          tipo: 'EVENTO DE EXTENSÃO',
-                          projetos: 'II ENCONTRO NIETZSCHE E FOUCAULT: DIÁLOGOS',
-                          coordenador: 'Roberta Liana Damasceno Costa',
-                          situacao: 'Cadastrado',
+                            curso: 'Lic. Plena em Filosofia',
+                            areas: 'Cultura e Educação',
+                            tipo: 'EVENTO DE EXTENSÃO',
+                            projetos: 'II ENCONTRO NIETZSCHE E FOUCAULT: DIÁLOGOS',
+                            coordenador: 'Roberta Liana Damasceno Costa',
+                            situacao: 'Cadastrado',
                         },
-              
+
                         {
-                          curso: 'Lic. Plena em Filosofia',
-                          areas: 'Cultura',
-                          tipo: 'PROJETO DE EXTENSÃO',
-                          projetos: 'HISTÓRIA DA ARTE: ESTUDO DOS MOVIMENTOS ARTÍSTICOS COM O USO DE NOVAS PLATAFORMAS E FERRAMENTAS DIGITAIS',
-                          coordenador: 'Solange Aparecida de Campos Costa',
-                          situacao: 'Cadastrado',
+                            curso: 'Lic. Plena em Filosofia',
+                            areas: 'Cultura',
+                            tipo: 'PROJETO DE EXTENSÃO',
+                            projetos: 'HISTÓRIA DA ARTE: ESTUDO DOS MOVIMENTOS ARTÍSTICOS COM O USO DE NOVAS PLATAFORMAS E FERRAMENTAS DIGITAIS',
+                            coordenador: 'Solange Aparecida de Campos Costa',
+                            situacao: 'Cadastrado',
                         },
-              
+
                         {
-                          curso: 'Lic. Plena em Pedagogia',
-                          areas: '-',
-                          tipo: 'PROJETO DE EXTENSÃO',
-                          projetos: 'CORAL DE LIBRAS – COLIBRAS',
-                          coordenador: ' Eva de Moraes Lima Moura | Robson Santos da Silva',
-                          situacao: 'Cadastrado',
+                            curso: 'Lic. Plena em Pedagogia',
+                            areas: '-',
+                            tipo: 'PROJETO DE EXTENSÃO',
+                            projetos: 'CORAL DE LIBRAS – COLIBRAS',
+                            coordenador: ' Eva de Moraes Lima Moura | Robson Santos da Silva',
+                            situacao: 'Cadastrado',
                         },
-              
+
                         {
-                          curso: 'Lic. Plena em Pedagogia',
-                          areas: 'Cultura e Educação',
-                          tipo: 'PROJETO DE EXTENSÃO',
-                          projetos: 'CURSO BÁSICO DE LÍNGUA BRASEILEIRA DE SINAIS – LIBRAS PARA A COMUNIDADE OUVINTE E SURDA DE PARNAÍBA',
-                          coordenador: 'Eva de Moraes Lima Moura',
-                          situacao: 'Cadastrado',
+                            curso: 'Lic. Plena em Pedagogia',
+                            areas: 'Cultura e Educação',
+                            tipo: 'PROJETO DE EXTENSÃO',
+                            projetos: 'CURSO BÁSICO DE LÍNGUA BRASEILEIRA DE SINAIS – LIBRAS PARA A COMUNIDADE OUVINTE E SURDA DE PARNAÍBA',
+                            coordenador: 'Eva de Moraes Lima Moura',
+                            situacao: 'Cadastrado',
                         },
-              
+
                         {
-                          curso: 'Licenciatura Plena em Ciências Biológicas',
-                          areas: 'Educação',
-                          tipo: 'EVENTO DE EXTENSÃO',
-                          projetos: 'RECEPÇÃO DE DISCENTES DO CURSO DE LICENCIATURA PLENA EM CIÊNCIAS BIOLÓGICAS',
-                          coordenador: 'Alessandra Ribeiro Torres',
-                          situacao: 'Cadastrado',
+                            curso: 'Licenciatura Plena em Ciências Biológicas',
+                            areas: 'Educação',
+                            tipo: 'EVENTO DE EXTENSÃO',
+                            projetos: 'RECEPÇÃO DE DISCENTES DO CURSO DE LICENCIATURA PLENA EM CIÊNCIAS BIOLÓGICAS',
+                            coordenador: 'Alessandra Ribeiro Torres',
+                            situacao: 'Cadastrado',
                         },
-              
+
                         {
-                          curso: 'Lic. Plena em História',
-                          areas: 'Direitos Humanos',
-                          tipo: '-',
-                          projetos: 'VIGIAR E PUNIR: A FORMAÇÃO DA SOCIEDADE DISCIPLINAR ENTRE A RETÓRICA HUMANISTA E A ENGENHOSIDADE DO CAPITALISMO',
-                          coordenador: 'Idelmar Gomes | Cavalcante Júnior',
-                          situacao: 'Cadastrado',
+                            curso: 'Lic. Plena em História',
+                            areas: 'Direitos Humanos',
+                            tipo: '-',
+                            projetos: 'VIGIAR E PUNIR: A FORMAÇÃO DA SOCIEDADE DISCIPLINAR ENTRE A RETÓRICA HUMANISTA E A ENGENHOSIDADE DO CAPITALISMO',
+                            coordenador: 'Idelmar Gomes | Cavalcante Júnior',
+                            situacao: 'Cadastrado',
                         },
-              
+
                         {
-                          curso: 'Lic. Plena em História',
-                          areas: 'Educação e Cultura',
-                          tipo: 'EVENTO DE EXTENSÃO',
-                          projetos: 'CENTENÁRIO DA ESTAÇÃO FERROVIÁRIA DE PARNAÍBA: REFLEXÕES SOBRE A CIDADE E O TREM NO PIAUÍ',
-                          coordenador: 'Felipe Augusto dos Santos Ribeiro',
-                          situacao: 'Cadastrado',
+                            curso: 'Lic. Plena em História',
+                            areas: 'Educação e Cultura',
+                            tipo: 'EVENTO DE EXTENSÃO',
+                            projetos: 'CENTENÁRIO DA ESTAÇÃO FERROVIÁRIA DE PARNAÍBA: REFLEXÕES SOBRE A CIDADE E O TREM NO PIAUÍ',
+                            coordenador: 'Felipe Augusto dos Santos Ribeiro',
+                            situacao: 'Cadastrado',
                         },
-              
+
                         {
-                          curso: 'Lic. Plena em História',
-                          areas: 'Educação',
-                          tipo: '-',
-                          projetos: 'CICLO DE DEBATES PÚBLICOS SOBRE ENSINO DE HISTÓRIA E MEMÓRIA',
-                          coordenador: 'Fernando Bagiotto Botton',
-                          situacao: 'Cadastrado',
-                        },
-                        {
-                          curso: 'Bacharelado em Agronomia',
-                          areas: 'Comunicação',
-                          tipo: 'PROJETO DE EXTENSÃO',
-                          projetos: 'CRIAÇÃO E MANUTENÇÃO DO SITE “DITALPI – PRODUÇÃO AGRÍCOLA COM QUALIDADE',
-                          coordenador: 'Aurinete Daienn Borges do Val',
-                          situacao: 'Cadastrado',
+                            curso: 'Lic. Plena em História',
+                            areas: 'Educação',
+                            tipo: '-',
+                            projetos: 'CICLO DE DEBATES PÚBLICOS SOBRE ENSINO DE HISTÓRIA E MEMÓRIA',
+                            coordenador: 'Fernando Bagiotto Botton',
+                            situacao: 'Cadastrado',
                         },
                         {
-                          curso: 'Bacharelado em Agronomia',
-                          areas: 'Educação',
-                          tipo: 'PROJETO DE EXTENSÃO',
-                          projetos: 'BATE-PAPO AGRO',
-                          coordenador: 'Fernando Silva Araújo',
-                          situacao: 'Cadastrado',
+                            curso: 'Bacharelado em Agronomia',
+                            areas: 'Comunicação',
+                            tipo: 'PROJETO DE EXTENSÃO',
+                            projetos: 'CRIAÇÃO E MANUTENÇÃO DO SITE “DITALPI – PRODUÇÃO AGRÍCOLA COM QUALIDADE',
+                            coordenador: 'Aurinete Daienn Borges do Val',
+                            situacao: 'Cadastrado',
                         },
-              
                         {
-                          curso: 'Odontologia',
-                          areas: '-',
-                          tipo: 'PROJETO DE EXTENSÃO',
-                          projetos: 'LIGA ACADÊMICA DE CIRURGIA E TRAUMATOLOGIA BUCO-MAXILO-FACIAIS',
-                          coordenador: 'Jean de Pinho Mendes',
-                          situacao: 'Cadastrado',
+                            curso: 'Bacharelado em Agronomia',
+                            areas: 'Educação',
+                            tipo: 'PROJETO DE EXTENSÃO',
+                            projetos: 'BATE-PAPO AGRO',
+                            coordenador: 'Fernando Silva Araújo',
+                            situacao: 'Cadastrado',
                         },
-              
+
                         {
-                          curso: 'Odontologia',
-                          areas: 'Saúde',
-                          tipo: 'EVENTO DE EXTENSÃO',
-                          projetos: 'FAMÍLIA ODONTO UESPI: ACOLHIMEN-TO CALOUROS',
-                          coordenador: 'Maria Ângela Arêa Leão Ferraz',
-                          situacao: 'Cadastrado',
+                            curso: 'Odontologia',
+                            areas: '-',
+                            tipo: 'PROJETO DE EXTENSÃO',
+                            projetos: 'LIGA ACADÊMICA DE CIRURGIA E TRAUMATOLOGIA BUCO-MAXILO-FACIAIS',
+                            coordenador: 'Jean de Pinho Mendes',
+                            situacao: 'Cadastrado',
                         },
-              
+
                         {
-                          curso: 'Odontologia',
-                          areas: 'Educação',
-                          tipo: 'PROJETO DE EXTENSÃO',
-                          projetos: 'PESQUISA QUALITATIVA EM SAÚDE',
-                          coordenador: 'Brunna Verna Castro Gondinho',
-                          situacao: 'Cadastrado',
+                            curso: 'Odontologia',
+                            areas: 'Saúde',
+                            tipo: 'EVENTO DE EXTENSÃO',
+                            projetos: 'FAMÍLIA ODONTO UESPI: ACOLHIMEN-TO CALOUROS',
+                            coordenador: 'Maria Ângela Arêa Leão Ferraz',
+                            situacao: 'Cadastrado',
                         },
-              
+
                         {
-                          curso: 'Odontologia',
-                          areas: 'Saúde',
-                          tipo: 'EVENTO DE EXTENSÃO',
-                          projetos: 'PRÉ - JOPAR – PRÉ JORNADA ACADÊMICA DE ODONTOLOGIA DE PARNAÍBA',
-                          coordenador: 'Brunna Verna Castro Gondinho',
-                          situacao: 'Cadastrado',
+                            curso: 'Odontologia',
+                            areas: 'Educação',
+                            tipo: 'PROJETO DE EXTENSÃO',
+                            projetos: 'PESQUISA QUALITATIVA EM SAÚDE',
+                            coordenador: 'Brunna Verna Castro Gondinho',
+                            situacao: 'Cadastrado',
                         },
-              
+
                         {
-                          curso: 'Odontologia',
-                          areas: '-',
-                          tipo: 'PROJETO DE EXTENSÃO',
-                          projetos: 'ODONTO UESPI: ASSOCIAÇÃO ATLÉTICA ACADÊMICA NOCIVA – ANO 1',
-                          coordenador: 'Maria Ângela Arêa Leão Ferraz',
-                          situacao: 'Cadastrado',
+                            curso: 'Odontologia',
+                            areas: 'Saúde',
+                            tipo: 'EVENTO DE EXTENSÃO',
+                            projetos: 'PRÉ - JOPAR – PRÉ JORNADA ACADÊMICA DE ODONTOLOGIA DE PARNAÍBA',
+                            coordenador: 'Brunna Verna Castro Gondinho',
+                            situacao: 'Cadastrado',
                         },
-              
+
                         {
-                          curso: 'Lic. em Ciências Sociais',
-                          areas: 'Educação',
-                          tipo: 'PROJETO DE EXTENSÃO',
-                          projetos: 'OFICINA REMOTA DE LEITURA E ESCRITA ACADÊMICA',
-                          coordenador: 'Karina Maria Abreu Cursino',
-                          situacao: 'Cadastrado',
+                            curso: 'Odontologia',
+                            areas: '-',
+                            tipo: 'PROJETO DE EXTENSÃO',
+                            projetos: 'ODONTO UESPI: ASSOCIAÇÃO ATLÉTICA ACADÊMICA NOCIVA – ANO 1',
+                            coordenador: 'Maria Ângela Arêa Leão Ferraz',
+                            situacao: 'Cadastrado',
                         },
-              
+
                         {
-                          curso: 'Lic. em Ciências Sociais',
-                          areas: 'Educação e Comunicação',
-                          tipo: 'PROGRAMA DE EXTENSÃO',
-                          projetos: 'APRENDER PARA INCLUIR, INCLUIR PARA APRENDER',
-                          coordenador: 'Mara de Souza Paixão',
-                          situacao: 'Cadastrado',
+                            curso: 'Lic. em Ciências Sociais',
+                            areas: 'Educação',
+                            tipo: 'PROJETO DE EXTENSÃO',
+                            projetos: 'OFICINA REMOTA DE LEITURA E ESCRITA ACADÊMICA',
+                            coordenador: 'Karina Maria Abreu Cursino',
+                            situacao: 'Cadastrado',
+                        },
+
+                        {
+                            curso: 'Lic. em Ciências Sociais',
+                            areas: 'Educação e Comunicação',
+                            tipo: 'PROGRAMA DE EXTENSÃO',
+                            projetos: 'APRENDER PARA INCLUIR, INCLUIR PARA APRENDER',
+                            coordenador: 'Mara de Souza Paixão',
+                            situacao: 'Cadastrado',
                         },
                     ],
                     relatorioAcoesExtensionistas: [],
-                    levantamentoBolsas: []
+                    levantamentoBolsas: [
+                        {
+                            programa: 'Bolsa Trabalho',
+                            contemplados: 11
+                        },
+                        {
+                            programa: 'Auxílio Moradia',
+                            contemplados: 37
+                        },
+                        {
+                            programa: 'Estágio Não Obrigatório',
+                            contemplados: 5
+                        },
+                        {
+                            programa: 'Auxílio Alimentação',
+                            contemplados: 100
+                        }
+                    ]
                 }
             },
             piripiri: {
@@ -390,7 +407,24 @@ export default {
                         },
                     ],
                     relatorioAcoesExtensionistas: [],
-                    levantamentoBolsas: []
+                    levantamentoBolsas: [
+                        {
+                            programa: 'Bolsa Trabalho',
+                            contemplados: 15
+                        },
+                        {
+                            programa: 'Auxílio Moradia',
+                            contemplados: 14
+                        },
+                        {
+                            programa: 'Estágio Não Obrigatório',
+                            contemplados: 4
+                        },
+                        {
+                            programa: 'Auxílio Alimentação',
+                            contemplados: 30
+                        }
+                    ]
                 }
             },
             barras: {
@@ -400,10 +434,27 @@ export default {
                     //ok
                     acoesExtensionistas: [],
                     relatorioAcoesExtensionistas: [],
-                    levantamentoBolsas: []
+                    levantamentoBolsas: [
+                        {
+                            programa: 'Bolsa Trabalho',
+                            contemplados: 7
+                        },
+                        {
+                            programa: 'Auxílio Moradia',
+                            contemplados: 24
+                        },
+                        {
+                            programa: 'Estágio Não Obrigatório',
+                            contemplados: '-'
+                        },
+                        {
+                            programa: 'Auxílio Alimentação',
+                            contemplados: 12
+                        }
+                    ]
                 }
             },
-            campoMaior:{
+            campoMaior: {
                 title: 'CAMPUS HERÓIS DO JENIPAPO/CAMPO MAIOR',
                 subtitle: 'TERRITÓRIO: CARNAÚBAIS',
                 content: {
@@ -467,7 +518,24 @@ export default {
                         },
                     ],
                     relatorioAcoesExtensionistas: [],
-                    levantamentoBolsas: []
+                    levantamentoBolsas: [
+                        {
+                            programa: 'Bolsa Trabalho',
+                            contemplados: 8
+                        },
+                        {
+                            programa: 'Auxílio Moradia',
+                            contemplados: 11
+                        },
+                        {
+                            programa: 'Estágio Não Obrigatório',
+                            contemplados: 2
+                        },
+                        {
+                            programa: 'Auxílio Alimentação',
+                            contemplados: 38
+                        }
+                    ]
                 }
             },
             floriano: {
@@ -622,7 +690,24 @@ export default {
                         },
                     ],
                     relatorioAcoesExtensionistas: [],
-                    levantamentoBolsas: []
+                    levantamentoBolsas: [
+                        {
+                            programa: 'Bolsa Trabalho',
+                            contemplados: 11
+                        },
+                        {
+                            programa: 'Auxílio Moradia',
+                            contemplados: 51
+                        },
+                        {
+                            programa: 'Estágio Não Obrigatório',
+                            contemplados: 3
+                        },
+                        {
+                            programa: 'Auxílio Alimentação',
+                            contemplados: 118
+                        }
+                    ]
                 }
             },
             oeiras: {
@@ -713,7 +798,24 @@ export default {
                         },
                     ],
                     relatorioAcoesExtensionistas: [],
-                    levantamentoBolsas: []
+                    levantamentoBolsas: [
+                        {
+                            programa: 'Bolsa Trabalho',
+                            contemplados: 18
+                        },
+                        {
+                            programa: 'Auxílio Moradia',
+                            contemplados: 21
+                        },
+                        {
+                            programa: 'Estágio Não Obrigatório',
+                            contemplados: '-'
+                        },
+                        {
+                            programa: 'Auxílio Alimentação',
+                            contemplados: 38
+                        }
+                    ]
                 }
             },
             picos: {
@@ -876,7 +978,24 @@ export default {
                         },
                     ],
                     relatorioAcoesExtensionistas: [],
-                    levantamentoBolsas: []
+                    levantamentoBolsas: [
+                        {
+                            programa: 'Bolsa Trabalho',
+                            contemplados: 8
+                        },
+                        {
+                            programa: 'Auxílio Moradia',
+                            contemplados: 45
+                        },
+                        {
+                            programa: 'Estágio Não Obrigatório',
+                            contemplados: 1
+                        },
+                        {
+                            programa: 'Auxílio Alimentação',
+                            contemplados: 140
+                        }
+                    ]
                 }
             },
             urucui: {
@@ -967,7 +1086,24 @@ export default {
                         },
                     ],
                     relatorioAcoesExtensionistas: [],
-                    levantamentoBolsas: []
+                    levantamentoBolsas: [
+                        {
+                            programa: 'Bolsa Trabalho',
+                            contemplados: 12
+                        },
+                        {
+                            programa: 'Auxílio Moradia',
+                            contemplados: 12
+                        },
+                        {
+                            programa: 'Estágio Não Obrigatório',
+                            contemplados: '-'
+                        },
+                        {
+                            programa: 'Auxílio Alimentação',
+                            contemplados: 55
+                        }
+                    ]
                 }
             },
             bomJesus: {
@@ -977,24 +1113,41 @@ export default {
                     //OK
                     acoesExtensionistas: [
                         {
-                        curso: 'Licenciatura em Pedagogia',
-                        areas: 'Educação',
-                        tipo: 'PROJETO DE EXTENSÃO',
-                        projetos: 'LEGISLAÇÃO EDUCACIONAL: A EDUCAÇÃO INFANTIL NO CONTEXTO DA BASE NACIONAL COMUM CURRICULAR',
-                        coordenador: 'Dryelle Patrícia Silva e Silva',
-                        situacao: 'Cadastrado',
-                      },
-                      {
-                        curso: 'Licenciatura em Pedagogia',
-                        areas: 'Educação',
-                        tipo: 'PROJETO DE EXTENSÃO',
-                        projetos: 'PRÁTICAS DE ALFABETIZAÇÃO',
-                        coordenador: 'Marcos Helam Alves da Silva',
-                        situacao: 'Cadastrado',
-                      },
+                            curso: 'Licenciatura em Pedagogia',
+                            areas: 'Educação',
+                            tipo: 'PROJETO DE EXTENSÃO',
+                            projetos: 'LEGISLAÇÃO EDUCACIONAL: A EDUCAÇÃO INFANTIL NO CONTEXTO DA BASE NACIONAL COMUM CURRICULAR',
+                            coordenador: 'Dryelle Patrícia Silva e Silva',
+                            situacao: 'Cadastrado',
+                        },
+                        {
+                            curso: 'Licenciatura em Pedagogia',
+                            areas: 'Educação',
+                            tipo: 'PROJETO DE EXTENSÃO',
+                            projetos: 'PRÁTICAS DE ALFABETIZAÇÃO',
+                            coordenador: 'Marcos Helam Alves da Silva',
+                            situacao: 'Cadastrado',
+                        },
                     ],
                     relatorioAcoesExtensionistas: [],
-                    levantamentoBolsas: []
+                    levantamentoBolsas: [
+                        {
+                            programa: 'Bolsa Trabalho',
+                            contemplados: 9
+                        },
+                        {
+                            programa: 'Auxílio Moradia',
+                            contemplados: 12
+                        },
+                        {
+                            programa: 'Estágio Não Obrigatório',
+                            contemplados: '-'
+                        },
+                        {
+                            programa: 'Auxílio Alimentação',
+                            contemplados: 21
+                        }
+                    ]
                 }
             },
             saoRaimundoNonato: {
@@ -1013,7 +1166,24 @@ export default {
                         },
                     ],
                     relatorioAcoesExtensionistas: [],
-                    levantamentoBolsas: []
+                    levantamentoBolsas: [
+                        {
+                            programa: 'Bolsa Trabalho',
+                            contemplados: 11
+                        },
+                        {
+                            programa: 'Auxílio Moradia',
+                            contemplados: 17
+                        },
+                        {
+                            programa: 'Estágio Não Obrigatório',
+                            contemplados: 2
+                        },
+                        {
+                            programa: 'Auxílio Alimentação',
+                            contemplados: 25
+                        }
+                    ]
                 }
             },
             corrente: {
@@ -1128,7 +1298,24 @@ export default {
                         },
                     ],
                     relatorioAcoesExtensionistas: [],
-                    levantamentoBolsas: []
+                    levantamentoBolsas: [
+                        {
+                            programa: 'Bolsa Trabalho',
+                            contemplados: 19
+                        },
+                        {
+                            programa: 'Auxílio Moradia',
+                            contemplados: 10
+                        },
+                        {
+                            programa: 'Estágio Não Obrigatório',
+                            contemplados: 5
+                        },
+                        {
+                            programa: 'Auxílio Alimentação',
+                            contemplados: 33
+                        }
+                    ]
                 }
             }
         }
@@ -1145,7 +1332,7 @@ export default {
         HIDE_TOGGLE_CITY_DIALOG(state) {
             state.cityDialog = false;
         },
-        SET_CITY_DIALOG_CONTENT(state, {city}) {
+        SET_CITY_DIALOG_CONTENT(state, { city }) {
             state.cityDialogContent = city;
         },
     },
