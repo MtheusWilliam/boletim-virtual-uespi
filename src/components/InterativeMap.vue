@@ -66,19 +66,31 @@
             </v-tooltip>
             </v-col>
             <v-col cols="12" style="margin-top: -20px;" class="ml-5">
-            <v-tooltip color="white" top>
-                <template v-slot:activator="{ on, attrs }">
-                <v-btn
-                    v-bind="attrs"
-                    v-on="on"
-                    small
-                    elevation="2"
-                    fab
-                >
-                </v-btn>
-                </template>
-                <span style="color:  rgb(0,119,189)"><strong>Teresina</strong></span>
-            </v-tooltip>
+                <v-menu>
+                    <template v-slot:activator="{ on: menu, attrs }">
+                        <v-tooltip color="white" top>
+                            <template v-slot:activator="{ on: tooltip }">
+                                <v-btn
+                                    small
+                                    elevation="2"
+                                    fab
+                                    v-bind="attrs"
+                                    v-on="{ ...tooltip, ...menu }"
+                                >
+                                </v-btn>
+                            </template>
+                            <span style="color:  rgb(0,119,189)"><strong>Teresina</strong></span>
+                        </v-tooltip>
+                    </template>
+                    <v-list>
+                        <v-list-item
+                        v-for="(item, index) in items"
+                        :key="index"
+                        >
+                        <v-list-item-title>{{ item.title }}</v-list-item-title>
+                        </v-list-item>
+                    </v-list>
+                </v-menu>
             </v-col>
             <!-- TRÍADE FLORIANO-OEIRAS-PICOS -->
             <v-col cols="12" class="mt-8 ml-6">
@@ -200,6 +212,10 @@
 <script>
 export default {
   data: () => ({
+      items: [
+        { title: 'Campus Poeta Torquato Neto' },
+        { title: 'Campus Clóvis Moura' },
+      ]
   }),
   computed:{
     dialog: function (){
