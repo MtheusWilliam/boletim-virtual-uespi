@@ -30,7 +30,11 @@
       <v-tab-item>
         <v-card flat>
           <v-data-table
-            :headers="headers_01"
+            :headers="
+              cityDialogContent.subtitle == 'ENTRE RIOS'
+                ? headers_01_teresina
+                : headers_01
+            "
             :items="cityDialogContent.content.acoesExtensionistas"
             :items-per-page="5"
             class="elevation-1"
@@ -139,6 +143,20 @@ export default {
         sortable: false,
         value: "curso",
       },
+      { text: "Áreas Temáticas", value: "areas" },
+      { text: "Tipo", value: "tipo" },
+      { text: "Programas/Projetos", value: "projetos" },
+      { text: "Coordenador(a)", value: "coordenador" },
+      { text: "Situação", value: "situacao" },
+    ],
+    headers_01_teresina: [
+      {
+        text: "Campus",
+        align: "start",
+        sortable: true,
+        value: "campus",
+      },
+      { text: "Centro", value: "centro" },
       { text: "Áreas Temáticas", value: "areas" },
       { text: "Tipo", value: "tipo" },
       { text: "Programas/Projetos", value: "projetos" },

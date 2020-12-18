@@ -73,44 +73,20 @@
         </v-tooltip>
       </v-col>
       <v-col cols="12" style="margin-top: -20px" class="ml-5">
-        <v-menu>
-          <template v-slot:activator="{ on: menu, attrs }">
-            <v-tooltip color="white" top>
-              <template v-slot:activator="{ on: tooltip }">
-                <v-btn
-                  small
-                  elevation="2"
-                  fab
-                  v-bind="attrs"
-                  v-on="{ ...tooltip, ...menu }"
-                >
-                </v-btn>
-              </template>
-              <span style="color: rgb(0, 119, 189)"
-                ><strong>Teresina</strong></span
-              >
-            </v-tooltip>
+        <v-tooltip color="white" top>
+          <template v-slot:activator="{ on, attrs }">
+            <v-btn
+              small
+              elevation="2"
+              fab
+              v-bind="attrs"
+              v-on="on"
+              @click="changeDialogCity(citiesContents.teresina)"
+            >
+            </v-btn>
           </template>
-          <v-card width="300">
-            <v-list>
-              <!-- HABILITAR TORQUATO NETO -->
-              <v-list-item>
-                <v-list-item-title
-                  style="font-size: 0.9em; color: rgb(0, 119, 189)"
-                  >Campus Poeta Torquato Neto</v-list-item-title
-                >
-              </v-list-item>
-              <v-list-item
-                @click="changeDialogCity(citiesContents.teresinaClovis)"
-              >
-                <v-list-item-title
-                  style="font-size: 0.9em; color: rgb(0, 119, 189)"
-                  >Campus Clóvis Moura</v-list-item-title
-                >
-              </v-list-item>
-            </v-list>
-          </v-card>
-        </v-menu>
+          <span style="color: rgb(0, 119, 189)"><strong>Teresina</strong></span>
+        </v-tooltip>
       </v-col>
       <!-- TRÍADE FLORIANO-OEIRAS-PICOS -->
       <v-col cols="12" class="mt-8 ml-6">

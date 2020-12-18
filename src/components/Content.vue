@@ -1,50 +1,43 @@
 <template>
   <v-container>
-    <v-row style="margin-top: 3%;">
+    <v-row style="margin-top: 3%">
       <v-col cols="12">
-        <h1>Boletim Virtual Uespi 2020</h1>
+        <h1>Boletim Virtual PREX 2020</h1>
       </v-col>
-      <v-dialog
-        persistent
-        v-model="dialog"
-        width="1200"
-      >
+      <v-dialog persistent v-model="dialog" width="1200">
         <city-content></city-content>
       </v-dialog>
       <v-col cols="12">
-          <interative-map></interative-map>
+        <interative-map></interative-map>
       </v-col>
     </v-row>
   </v-container>
 </template>
 
 <script>
-import InterativeMap from './InterativeMap'
-import CityContent from './CityContent'
+import InterativeMap from "./InterativeMap";
+import CityContent from "./CityContent";
 
 export default {
   components: {
     InterativeMap,
-    CityContent
+    CityContent,
   },
-  computed:{
-    dialog: function (){
-        return this.$store.state.main.cityDialog;
+  computed: {
+    dialog: function () {
+      return this.$store.state.main.cityDialog;
     },
   },
-  data: () => ({
-    
-  }),
-  methods:{
-  }
-}
+  data: () => ({}),
+  methods: {},
+};
 </script>
 
 <style scoped>
-  h1{
-    color: white;
-  }
-  h3{
-    color: whitesmoke;
-  }
+h1 {
+  color: white;
+}
+h3 {
+  color: whitesmoke;
+}
 </style>
