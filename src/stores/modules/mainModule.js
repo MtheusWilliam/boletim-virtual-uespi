@@ -3,6 +3,648 @@ export default {
         cityDialog: false,
         cityDialogContent: {},
         citiesContents: {
+            piaui: {
+                title: 'DADOS DE TODO O ESTADO',
+                subtitle: '',
+                content: {
+                    relatorioAcoesExtensionistas: {
+                        acoesComBolsas: [
+                            {
+                                campus: 'CAMPUS POETA TORQUATO NETO',
+                                cidade: 'TERESINA-PI',
+                                territorio: 'ENTRE RIOS',
+                                acao: 'GRUPO DE TEATRO CAHUAHAM',
+                            },
+                            {
+                                campus: 'CAMPUS POETA TORQUATO NETO',
+                                cidade: 'TERESINA-PI',
+                                territorio: 'ENTRE RIOS',
+                                acao: 'CORAL DA UESPI',
+                            },
+                            {
+                                campus: 'CAMPUS POETA TORQUATO NETO',
+                                cidade: 'TERESINA-PI',
+                                territorio: 'ENTRE RIOS',
+                                acao: 'CANTO CORAL NUTI/UNATI',
+                            },
+                            {
+                                campus: 'CAMPUS PROF. ANTÔNIO BARROS ARAÚJO',
+                                cidade: 'PICOS-PI',
+                                territorio: 'VALE DO RIO GUARIBAS',
+                                acao: 'CORPO DE DANÇA',
+                            },
+                        ],
+                        acoesSemBolsas: [
+                            {
+                                campus: 'CAMPUS POETA TORQUATO NETO',
+                                cidade: 'TERESINA-PI',
+                                territorio: 'ENTRE RIOS',
+                                acao: 'ARTE MARCIAL E CULTURAL ORIENTAL',
+                                atividade: 'Karatê'
+                            },
+                            {
+                                campus: 'CAMPUS POETA TORQUATO NETO',
+                                cidade: 'TERESINA-PI',
+                                territorio: 'ENTRE RIOS',
+                                acao: 'ARTE MARCIAL E CULTURAL ORIENTAL',
+                                atividade: 'Dança do ventre'
+                            },
+                            {
+                                campus: 'CAMPUS POETA TORQUATO NETO',
+                                cidade: 'TERESINA-PI',
+                                territorio: 'ENTRE RIOS',
+                                acao: 'ARTE MARCIAL E CULTURAL ORIENTAL',
+                                atividade: 'Chi Kung – Ba Duan Jin'
+                            },
+                            {
+                                campus: 'CAMPUS POETA TORQUATO NETO',
+                                cidade: 'TERESINA-PI',
+                                territorio: 'ENTRE RIOS',
+                                acao: 'ESCOLA CULTURAL DA ARTE CAPOEIRA',
+                                atividade: 'Capoeira'
+                            },
+                            {
+                                campus: 'CAMPUS POETA TORQUATO NETO',
+                                cidade: 'TERESINA-PI',
+                                territorio: 'ENTRE RIOS',
+                                acao: 'PROGRAMA DA TERCEIRA IDADE',
+                                atividade: 'NUTI'
+                            },
+                            {
+                                campus: 'CAMPUS POETA TORQUATO NETO',
+                                cidade: 'TERESINA-PI',
+                                territorio: 'ENTRE RIOS',
+                                acao: 'PROGRAMA DA TERCEIRA IDADE',
+                                atividade: 'UNATI'
+                            },
+                        ],
+                        proext: [
+                            {
+                                campus: 'CAMPUS POETA TORQUATO NETO',
+                                cidade: 'TERESINA-PI',
+                                territorio: 'ENTRE RIOS',
+                                coordenador: 'ARTE MARCIAL E CULTURAL ORIENTAL',
+                                programa: 'Karatê'
+                            },
+                            {
+                                campus: 'CAMPUS PROF. ALEXANDRE ALVES DE OLIVEIRA',
+                                cidade: 'PARNAÍBA-PI',
+                                territorio: 'PLANÍCIE LITORÂNEA',
+                                coordenador: 'Valdinar Bezerra dos Santos',
+                                programa: 'TROCA DE SABERES AGROECOLÓGICO NA CONSTRUÇÃO DE UM FUTURO MELHOR: NA UNIVERSIDADE A COMUNINDADE RURA OU VICE-VERSA'
+                            },
+                            {
+                                campus: 'CAMPUS DEP. JESUALDO CAVALCANTI BARROS  ',
+                                cidade: 'TERESINA-PI',
+                                territorio: 'CORRENTE-PI',
+                                coordenador: 'Raimunda Maria da Cunha Ribeiro',
+                                programa: 'EDUCAÇÃO INFANTIL: BRINQUEDOS E LIVROS NA FORMAÇÃO HUMANA DA  CRIANÇA.'
+                            },
+                        ],
+                        pibeu: [
+                            {
+                                campus: 'CAMPUS POETA TORQUATO NETO',
+                                cidade: 'TERESINA-PI',
+                                territorio: 'ENTRE RIOS',
+                                centro: 'CCA',
+                                curso: 'AGRONOMIA',
+                                bolsas: 2
+                            },
+                            {
+                                campus: 'CAMPUS POETA TORQUATO NETO',
+                                cidade: 'TERESINA-PI',
+                                territorio: 'ENTRE RIOS',
+                                centro: 'CCHL',
+                                curso: 'CIÊNCIAS SOCIAIS',
+                                bolsas: 1
+                            },
+                            {
+                                campus: 'CAMPUS POETA TORQUATO NETO',
+                                cidade: 'TERESINA-PI',
+                                territorio: 'ENTRE RIOS',
+                                centro: 'CCHL',
+                                curso: 'HISTÓRIA',
+                                bolsas: 5
+                            },
+                            {
+                                campus: 'CAMPUS POETA TORQUATO NETO',
+                                cidade: 'TERESINA-PI',
+                                territorio: 'ENTRE RIOS',
+                                centro: 'CCHL',
+                                curso: 'LETRAS ESPANHOL',
+                                bolsas: 1
+                            },
+                            {
+                                campus: 'CAMPUS POETA TORQUATO NETO',
+                                cidade: 'TERESINA-PI',
+                                territorio: 'ENTRE RIOS',
+                                centro: 'CCN',
+                                curso: 'CIÊNCIAS BIOLÓGICAS',
+                                bolsas: 2
+                            },
+                            {
+                                campus: 'CAMPUS POETA TORQUATO NETO',
+                                cidade: 'TERESINA-PI',
+                                territorio: 'ENTRE RIOS',
+                                centro: 'CCS',
+                                curso: 'ENFERMAGEM',
+                                bolsas: 6
+                            },
+                            {
+                                campus: 'CAMPUS POETA TORQUATO NETO',
+                                cidade: 'TERESINA-PI',
+                                territorio: 'ENTRE RIOS',
+                                centro: 'CCS',
+                                curso: 'FISIOTERAPIA',
+                                bolsas: 2
+                            },
+                            {
+                                campus: 'CAMPUS POETA TORQUATO NETO',
+                                cidade: 'TERESINA-PI',
+                                territorio: 'ENTRE RIOS',
+                                centro: 'CCS',
+                                curso: 'MEDICINA',
+                                bolsas: 5
+                            },
+                            {
+                                campus: 'CAMPUS POETA TORQUATO NETO',
+                                cidade: 'TERESINA-PI',
+                                territorio: 'ENTRE RIOS',
+                                centro: 'CCS',
+                                curso: 'PSICOLOGIA',
+                                bolsas: 2
+                            },
+                            {
+                                campus: 'CAMPUS POETA TORQUATO NETO',
+                                cidade: 'TERESINA-PI',
+                                territorio: 'ENTRE RIOS',
+                                centro: 'CCSA',
+                                curso: 'CIÊNCIAS CONTÁBEIS',
+                                bolsas: 1
+                            },
+                            {
+                                campus: 'CAMPUS POETA TORQUATO NETO',
+                                cidade: 'TERESINA-PI',
+                                territorio: 'ENTRE RIOS',
+                                centro: 'CCSA',
+                                curso: 'DIREITO',
+                                bolsas: 2
+                            },
+                            {
+                                campus: 'CAMPUS POETA TORQUATO NETO',
+                                cidade: 'TERESINA-PI',
+                                territorio: 'ENTRE RIOS',
+                                centro: 'CCSA',
+                                curso: 'TURISMO',
+                                bolsas: 2
+                            },
+                            //FLORIANO
+                            {
+                                campus: 'CAMPUS DRA. JOSEFINA DEMES',
+                                cidade: 'FLORIANO-PI',
+                                territorio: 'VALES DOS RIOS PIAUÍ ITAUEIRA',
+                                centro: '-',
+                                curso: 'CIÊNCIAS BIOLÓGICAS',
+                                bolsas: 1
+                            },
+                            {
+                                campus: 'CAMPUS DRA. JOSEFINA DEMES',
+                                cidade: 'FLORIANO-PI',
+                                territorio: 'VALES DOS RIOS PIAUÍ ITAUEIRA',
+                                centro: '-',
+                                curso: 'ENFERMAGEM',
+                                bolsas: 4
+                            },
+                            {
+                                campus: 'CAMPUS DRA. JOSEFINA DEMES',
+                                cidade: 'FLORIANO-PI',
+                                territorio: 'VALES DOS RIOS PIAUÍ ITAUEIRA',
+                                centro: '-',
+                                curso: 'HISTÓRIA',
+                                bolsas: 2
+                            },
+                            {
+                                campus: 'CAMPUS DRA. JOSEFINA DEMES',
+                                cidade: 'FLORIANO-PI',
+                                territorio: 'VALES DOS RIOS PIAUÍ ITAUEIRA',
+                                centro: '-',
+                                curso: 'LETRAS PORTUGUÊS',
+                                bolsas: 4
+                            },
+                            //CORRENTE
+                            {
+                                campus: 'CAMPUS DEP. JESUALDO CAVALCANTE BARROS',
+                                cidade: 'CORRENTE-PI',
+                                territorio: 'CHAPADA DA MANGABEIRA',
+                                centro: '-',
+                                curso: 'CIÊNCIAS BIOLÓGICAS',
+                                bolsas: 1
+                            },
+                            {
+                                campus: 'CAMPUS DEP. JESUALDO CAVALCANTE BARROS',
+                                cidade: 'CORRENTE-PI',
+                                territorio: 'CHAPADA DA MANGABEIRA',
+                                centro: '-',
+                                curso: 'PEDAGOGIA',
+                                bolsas: 1
+                            },
+                            //CAMPO MAIOR
+                            {
+                                campus: 'CAMPUS HERÓIS DO JENIPAPO',
+                                cidade: 'CAMPO MAIOR-PI',
+                                territorio: 'CARNAUBAIS',
+                                centro: '-',
+                                curso: 'HISTÓRIA',
+                                bolsas: 1
+                            },
+                            //PARNAIBA
+                            {
+                                campus: 'CAMPUS PROF. ALEXANDRE ALVES DE OLIVEIRA',
+                                cidade: 'PARNAÍBA-PI',
+                                territorio: 'PLANÍCIE LITORÂNEA',
+                                centro: '-',
+                                curso: 'AGRONOMIA',
+                                bolsas: 4
+                            },
+                            {
+                                campus: 'CAMPUS PROF. ALEXANDRE ALVES DE OLIVEIRA',
+                                cidade: 'PARNAÍBA-PI',
+                                territorio: 'PLANÍCIE LITORÂNEA',
+                                centro: '-',
+                                curso: 'CIÊNCIAS BIOLÓGICAS',
+                                bolsas: 2
+                            },
+                            {
+                                campus: 'CAMPUS PROF. ALEXANDRE ALVES DE OLIVEIRA',
+                                cidade: 'PARNAÍBA-PI',
+                                territorio: 'PLANÍCIE LITORÂNEA',
+                                centro: '-',
+                                curso: 'DIREITO',
+                                bolsas: 1
+                            },
+                            {
+                                campus: 'CAMPUS PROF. ALEXANDRE ALVES DE OLIVEIRA',
+                                cidade: 'PARNAÍBA-PI',
+                                territorio: 'PLANÍCIE LITORÂNEA',
+                                centro: '-',
+                                curso: 'ENFERMAGEM',
+                                bolsas: 1
+                            },
+                            {
+                                campus: 'CAMPUS PROF. ALEXANDRE ALVES DE OLIVEIRA',
+                                cidade: 'PARNAÍBA-PI',
+                                territorio: 'PLANÍCIE LITORÂNEA',
+                                centro: '-',
+                                curso: 'HISTÓRIA',
+                                bolsas: 1
+                            },
+                            {
+                                campus: 'CAMPUS PROF. ALEXANDRE ALVES DE OLIVEIRA',
+                                cidade: 'PARNAÍBA-PI',
+                                territorio: 'PLANÍCIE LITORÂNEA',
+                                centro: '-',
+                                curso: 'ODONTOLOGIA',
+                                bolsas: 4
+                            },
+                            {
+                                campus: 'CAMPUS PROF. ALEXANDRE ALVES DE OLIVEIRA',
+                                cidade: 'PARNAÍBA-PI',
+                                territorio: 'PLANÍCIE LITORÂNEA',
+                                centro: '-',
+                                curso: 'PEDAGOGIA',
+                                bolsas: 1
+                            },
+                            //PICOS
+                            {
+                                campus: 'CAMPUS PROF. ANTÔNIO BARROS ARAÚJO',
+                                cidade: 'PICOS-PI',
+                                territorio: 'VALE DO RIO GUARIBAS',
+                                centro: '-',
+                                curso: 'ADMINISTRAÇÃO',
+                                bolsas: 1
+                            },
+                            {
+                                campus: 'CAMPUS PROF. ANTÔNIO BARROS ARAÚJO',
+                                cidade: 'PICOS-PI',
+                                territorio: 'VALE DO RIO GUARIBAS',
+                                centro: '-',
+                                curso: 'AGRONOMIA',
+                                bolsas: 1
+                            },
+                            {
+                                campus: 'CAMPUS PROF. ANTÔNIO BARROS ARAÚJO',
+                                cidade: 'PICOS-PI',
+                                territorio: 'VALE DO RIO GUARIBAS',
+                                centro: '-',
+                                curso: 'ENFERMAGEM',
+                                bolsas: 1
+                            },
+                            {
+                                campus: 'CAMPUS PROF. ANTÔNIO BARROS ARAÚJO',
+                                cidade: 'PICOS-PI',
+                                territorio: 'VALE DO RIO GUARIBAS',
+                                centro: '-',
+                                curso: 'PEDAGOGIA',
+                                bolsas: 1
+                            },
+                            //PIRIPIRI
+                            {
+                                campus: 'CAMPUS PROF. ANTÔNIO GIOVANNI ALVES DE SOUSA',
+                                cidade: 'PIRIPIRI-PI',
+                                territorio: 'COCAIS',
+                                centro: '-',
+                                curso: 'FÍSICA',
+                                bolsas: 1
+                            },
+                            //SAO RAIMUNDO NONATO
+                            {
+                                campus: 'CAMPUS PROF. ARISTON DIAS',
+                                cidade: 'SÃO RAIMUNDO NONATO-PI',
+                                territorio: 'SERRA DA CAPIVARA',
+                                centro: '-',
+                                curso: 'CIÊNCIAS BIOLÓGICAS',
+                                bolsas: 1
+                            },
+                            {
+                                campus: 'CAMPUS PROF. ARISTON DIAS',
+                                cidade: 'SÃO RAIMUNDO NONATO-PI',
+                                territorio: 'SERRA DA CAPIVARA',
+                                centro: '-',
+                                curso: 'HISTÓRIA',
+                                bolsas: 1
+                            },
+                            //OEIRAS
+                            {
+                                campus: 'CAMPUS PROF. POSSIDÔNIO QUEIROZ  ',
+                                cidade: 'OEIRAS-PI',
+                                territorio: 'VALE DO CANINDÉ',
+                                centro: '-',
+                                curso: 'LETRAS PORTUGUÊS',
+                                bolsas: 2
+                            },
+                            {
+                                campus: 'CAMPUS PROF. POSSIDÔNIO QUEIROZ  ',
+                                cidade: 'OEIRAS-PI',
+                                territorio: 'VALE DO CANINDÉ',
+                                centro: '-',
+                                curso: 'PEDAGOGIA',
+                                bolsas: 1
+                            },
+                            //URUCUI
+                            {
+                                campus: 'CAMPUS CERRADOS  DO ALTO DO PARNAÍBA',
+                                cidade: 'URUCUÍ-PI',
+                                territorio: 'TABULEIROS DO ALTO DO PARNAÍBA',
+                                centro: '-',
+                                curso: 'AGRONOMIA',
+                                bolsas: 1
+                            },
+                            {
+                                campus: 'CAMPUS CERRADOS  DO ALTO DO PARNAÍBA',
+                                cidade: 'URUCUÍ-PI',
+                                territorio: 'TABULEIROS DO ALTO DO PARNAÍBA',
+                                centro: '-',
+                                curso: 'PEDAGOGIA',
+                                bolsas: 1
+                            },
+                        ]
+                    },
+                    teatro: [
+                        {
+                            acao: 'Encontros virtuais para planejamento e organização das atividades',
+                            situacao: 'Os encontros são realizados uma vez por semana através do aplicativo Google Meet.'
+                        },
+                        {
+                            acao: 'Estudos teóricos sobre o texto que o grupo está trabalhando no momento',
+                            situacao: 'Analisando o conteúdo teórico e colocando em prática através das atividades mesmo de forma Remota.'
+                        },
+                        {
+                            acao: 'Realização do projeto: Leituras de poemas',
+                            situacao: 'Integrantes fazem leituras dramáticas de poemas e são divulgados no Instagram do grupo de Teatro da UESPI.'
+                        },
+                        {
+                            acao: 'Realização de vídeos que abordem temas importantes',
+                            situacao: 'O grupo trabalhou através de vídeos os temas: Setembro Amarelo, Outubro Rosa, Consciência negra e também abordou motivação para grupo de idosos no período de pandemia'
+                        },
+                        {
+                            acao: 'Atividades de pré-produção da montagem do espetáculo “Um Homem é um Homem”.',
+                            situacao: 'A Direção, juntamente com os integrantes responsáveis pela produção está trabalhando na montagem'
+                        },
+                        {
+                            acao: 'Realização do projeto: Leituras de poemasPlanejamento do retorno das atividades presenciais',
+                            situacao: 'IOrganização, tomando devidos cuidados na prevenção'
+                        },
+                    ],
+                    coral: [
+                        {
+                            mes: 'MARÇO',
+                            acao: 'Planejamento inicial',
+                            situacao: 'Executada'
+                        },
+                        {
+                            mes: 'ABRIL A NOVEMBRO',
+                            acao: 'Atividades remotas/digitais com os integrantes do Coral da UESPI, para interação e manutenção de repertório no período de isolamento social.',
+                            situacao: 'Executada'
+                        },
+                        {
+                            mes: 'NOVEMBRO',
+                            acao: 'Escolha de repertório natalino (escolhidas músicas com mensagens natalinas para compor o repertório para gravação e compartilhamento com os coralistas)',
+                            situacao: 'Executada'
+                        },
+                        {
+                            mes: 'NOVEMBRO',
+                            acao: 'Socialização de partituras escaneadas, enviadas no celular pelo whats app',
+                            situacao: 'Executada'
+                        },
+                        {
+                            mes: 'NOVEMBRO',
+                            acao: 'Gravação de áudios com os repertórios natalinos cantados por linha melódica com violão e voz',
+                            situacao: 'Executada'
+                        },
+                        {
+                            mes: 'NOVEMBRO',
+                            acao: 'Ensaios individuais e ensaios virtuais',
+                            situacao: 'Executada'
+                        },
+                        {
+                            mes: 'NOVEMBRO',
+                            acao: 'Disponibilidade da Regente às terças e quintas-feiras, de 18 as 20 horas para orientação',
+                            situacao: 'Executada'
+                        },
+                    ],
+                    unuti: [
+                        {
+                            data: '20/03/20',
+                            acao: 'Iniciamos uma série de desafios (tarefas a serem realizadas) a e enviadas para a coordenação, onde era desenvolvida dança, canto e atividades que desenvolva o cognitivo',
+                            situacao: 'Acontecendo'
+                        },
+                        {
+                            data: '20/03/20',
+                            acao: 'Iniciou se um ciclo de palestras todas as quartas a noite das 19h às 20h30min',
+                            situacao: 'Acontecendo'
+                        },
+                        {
+                            data: '20/04/20',
+                            acao: 'Iniciamos umas parceiras coma a Universidade Estadual de Bahia (Com o grupo de idosos-UATI) e com a Universidade Federal de Sergipe com o grupo de idoso (NUPATI) onde foi desenvolvidos cursos on line via plataforma meet até o dia 20 de novembro.',
+                            situacao: 'Encerrado'
+                        },
+                        {
+                            data: '14/05/20',
+                            acao: 'Inicia o CAFÉ com POESIA momento de leitura e declamação de poesias com a participação de poetas piauiense.',
+                            situacao: 'Acontecendo'
+                        },
+                        {
+                            data: '22/06/20',
+                            acao: 'Primeiro Arraial virtual da UNATI/NUTI',
+                            situacao: 'Encerrado'
+                        },
+                        {
+                            data: '03/10/20',
+                            acao: 'Festa on line com a participação de rartitas piauiense (música ao vivo) em comemoração ao dia do Idoso',
+                            situacao: 'Encerrado'
+                        },
+                        {
+                            data: '10/10/20',
+                            acao: 'Lives via Canal da Unati no Youtube sobre diversos temas relacionados ao idoso',
+                            situacao: 'Acontecendo'
+                        },
+                        {
+                            data: '22/12/20',
+                            acao: 'Natal Virtual da UNati, NUti',
+                            situacao: 'Planejamento'
+                        },
+                    ],
+                    assistenciaSocial: [
+                        {
+                            acao: 'Elaboração e publicação do Resultado Final de Estágio do Laboratório de Zoologia e Biologia Parasitária - LABZOOBP da UESPI',
+                            situacao: 'EXECUTADA'
+                        },
+                        {
+                            acao: 'Elaboração e encaminhamento das Folhas de Pagamento das bolsas de Auxílio Moradia, Bolsa Trabalho e Estágio Extracurricular',
+                            situacao: 'EXECUTADA'
+                        },
+                        {
+                            acao: 'Elaboração de Minuta de Edital do Laboratório de Genética - LABGENE da UESPI',
+                            situacao: 'EXECUTADA'
+                        },
+                        {
+                            acao: 'Recebimento e controle das frequências de bolsistas referentes ao mês de março',
+                            situacao: 'EXECUTADA'
+                        },
+                        {
+                            acao: 'Orientação aos bolsistas e estagiários quanto ao preenchimento da folha de frequência do mês de março em virtude da quarentena',
+                            situacao: 'EXECUTADA'
+                        },
+                        {
+                            acao: 'Recebimento e controle das frequências de bolsistas referentes ao mês de março',
+                            situacao: 'EXECUTADA'
+                        },
+                        {
+                            acao: 'Orientação aos estagiários que necessitam de assinatura dos Termos de Compromisso e/ou Renovação de estágio',
+                            situacao: 'EM ACOMPANHAMENTO'
+                        },
+                        {
+                            acao: 'Declaração de ciência e manifestação favorável à continuidade das atividades de estágio via e-mail, visto que por hora a assinatura do Termo está inviabilizada',
+                            situacao: 'EXECUTADA'
+                        },
+                        {
+                            acao: 'Orientação quanto à abertura de Convênio entre empresas e a UESPI, solicitando o envio da documentação via e-mail',
+                            situacao: 'EM ACOMPANHAMENTO'
+                        },
+                        {
+                            acao: 'Acompanhamento de processos referentes às bolsas de assistência estudantil via SEI.',
+                            situacao: 'EM ACOMPANHAMENTO'
+                        },
+                        //OUTROS
+                        {
+                            acao: 'Envio de informações à Direção do Campus Josefina Demes – Floriano para atendimento da solicitação constante no DESPACHO Nº 9/2020/FUESPI-PI/GAB/PREX/DAEC-FUESPI-PI do PROCESSO Nº: 00089.000742/2020-64 solicitando pagamento referente ao mês de dezembro/2019',
+                            situacao: 'EXECUTADA'
+                        },
+                        {
+                            acao: 'Recebimento do RELATÓRIO DE FISCALIZAÇÃO MENSAL - AUXÍLIO ALIMENTAÇÃO - FEVEREIRO 2020 - FLORIANO.',
+                            situacao: 'EXECUTADA'
+                        },
+                        {
+                            acao: 'Elaboração da Minuta de Resolução DAEC/PREX/UESPI nº ___ /2020 dispõe sobre normas referentes às Ações Extensionistas e Assistência Estudantil no âmbito da Universidade Estadual do Piauí – UESPI para apreciação e aprovação',
+                            situacao: 'EXECUTADA'
+                        },
+                        {
+                            acao: 'Elaboração da Minuta do TERCEIRO TERMO ADITIVO DE AMPLIAÇÃO DO OBJETO DO CONTRATO ADMINISTRATIVO Nº 011/2018, FIRMADO ENTRE A FUNDAÇÃO UNIVERSIDADE ESTADUAL DO PIAUÍ – FUESPI E MAFRE VIDA S. A',
+                            situacao: 'EXECUTADA'
+                        },
+                        {
+                            acao: 'Acompanhamento de processos referentes ao DAEC via SEI.',
+                            situacao: 'EM ACOMPANHAMENTO'
+                        },
+                        {
+                            acao: 'Elaboração e tramitação para lançamento futuro da Minuta de Edital de Práticas Pedagógicas do Laboratório Maria Montessori em Piripiri.',
+                            situacao: 'EXECUTADA'
+                        },
+                        {
+                            acao: 'Elaboração e publicação de Edital DAEC/PREX/UESPI Nº 09/2020 referente ao Programa Auxílio Moradia em caráter emergencial.',
+                            situacao: 'EXECUTADA'
+                        },
+                        {
+                            acao: 'Seleção dos candidatos do Edital DAEC/PREX/UESPI Nº 09/2020 referente ao Programa Auxílio Moradia em caráter emergencial.',
+                            situacao: 'EXECUTADA'
+                        },
+                        {
+                            acao: 'Tramitação dos Processos de renovação dos Contratos com as Empresas M. V. R. EIRELI e L. H. L DE ASSIS & CIA LTDA do Programa Auxílio Alimentação.',
+                            situacao: 'EXECUTADA'
+                        },
+                    ],
+                    assistenciaEstudantil: [
+                        {
+                            acao: 'EDITAL PREX/DAEC Nº 11/2020. Processo Seletivo para Estágio Não Obrigatório do Curso de Bacharelado em Medicina, Campus Poeta Torquato Neto, Teresina – PI.',
+                            situacao: 'EXECUTADA'
+                        },
+                        {
+                            acao: 'EDITAL PREX/DAEC Nº 12/2020. Processo Seletivo para Estágio Não Obrigatório do Curso de Licenciatura em Letras Inglês, Campus Poeta Torquato Neto, Teresina – PI.',
+                            situacao: 'EXECUTADA'
+                        },
+                        {
+                            acao: 'EDITAL PREX/DAEC Nº 13/2020. Processo Seletivo para Estágio Não Obrigatório do Curso de Bacharelado e Licenciatura em Ciências Biológicas, Campus Poeta Torquato Neto, Teresina – PI.',
+                            situacao: 'EXECUTADA'
+                        },
+                        {
+                            acao: 'Recebimento e controle das frequências de bolsistas referentes ao mês de março',
+                            situacao: 'EXECUTADA'
+                        },
+                        {
+                            acao: 'EDITAL PREX/DAEC Nº 14/2020. Processo Seletivo para Estágio Não Obrigatório do Curso de Bacharelado e Licenciatura em Ciências Biológicas, Campus Poeta Torquato Neto, Teresina – PI.',
+                            situacao: 'EXECUTADA'
+                        },
+                        {
+                            acao: 'EDITAL PREX/DAEC Nº 15/2020. Processo Seletivo para Estágio Não Obrigatório do Curso de Licenciatura em Pedagogia, Campus Prof. Dr. Antônio Geovanni Alves de Sousa, Piripiri – PI.',
+                            situacao: 'EXECUTADA'
+                        },
+                        {
+                            acao: 'EDITAL PREX/DAEC Nº 16/2020. Processo Seletivo para Estágio Não Obrigatório dos Cursos de Bacharelado em Jornalismo e Relações Públicas, Campus Poeta Torquato Neto, Teresina – PI.',
+                            situacao: 'EM ACOMPANHAMENTO'
+                        },
+                        {
+                            acao: 'EDITAL DAEC/PREX/UESPI Nº 17/2020. Edital para o empréstimo de tablet do Programa Auxílio Inclusão Digital (Modalidade Empréstimo de Equipamento)',
+                            situacao: 'EXECUTADA'
+                        },
+                        {
+                            acao: 'EDITAL PREX/DAEC Nº 18/2020. Processo Seletivo para Estágio Não Obrigatório do Curso de Licenciatura em Pedagogia, Campus Heróis do Jenipapo, Campo Maior – PI.',
+                            situacao: 'EM ACOMPANHAMENTO'
+                        },
+                        {
+                            acao: 'EDITAL PREX/DAEC Nº 19/2020. Processo Seletivo para Estágio Não Obrigatório do Curso de Licenciatura em História, Campus Prof. Ariston Dias Lima, São Raimundo Nonato – PI.',
+                            situacao: 'EXECUTADA'
+                        },
+                        {
+                            acao: 'EDITAL DAEC/PREX/UESPI Nº 20/2020. Edital para AUXÍLIO PECUNIÁRIO, (Resolução CONAPLAN Nº 003/2020, Art. 4º, Modalidade I)',
+                            situacao: 'EXECUTADA'
+                        },
+                        {
+                            acao: 'EDITAL PREX/DAEC Nº 21/2020. Processo Seletivo para Estágio Não Obrigatório do Curso de Bacharelado em Turismo, Campus Poeta Torquato Neto, Teresina – PI.',
+                            situacao: 'EXECUTADA'
+                        }
+                    ],
+                }
+            },
             teresina: {
                 title: 'CAMPUS POETA TORQUATO NETO/TERESINA/CAMPUS CLÓVIS MOURA ',
                 subtitle: 'ENTRE RIOS',
@@ -400,7 +1042,6 @@ export default {
                             situacao: 'Cadastrado',
                         },
                     ],
-                    relatorioAcoesExtensionistas: [],
                     levantamentoBolsas: [
                         {
                             programa: 'Bolsa Trabalho',
@@ -432,7 +1073,6 @@ export default {
                     //VALIDAR POR DEPARTAMENTO
                     acoesExtensionistas: [
                     ],
-                    relatorioAcoesExtensionistas: [],
                     levantamentoBolsas: []
                 }
             },
@@ -645,7 +1285,6 @@ export default {
                             situacao: 'Cadastrado',
                         },
                     ],
-                    relatorioAcoesExtensionistas: [],
                     levantamentoBolsas: [
                         {
                             programa: 'Bolsa Trabalho',
@@ -769,7 +1408,6 @@ export default {
                             situacao: 'Cadastrado',
                         },
                     ],
-                    relatorioAcoesExtensionistas: [],
                     levantamentoBolsas: [
                         {
                             programa: 'Bolsa Trabalho',
@@ -796,7 +1434,6 @@ export default {
                 content: {
                     //ok
                     acoesExtensionistas: [],
-                    relatorioAcoesExtensionistas: [],
                     levantamentoBolsas: [
                         {
                             programa: 'Bolsa Trabalho',
@@ -880,7 +1517,6 @@ export default {
                             situacao: 'Cadastrado',
                         },
                     ],
-                    relatorioAcoesExtensionistas: [],
                     levantamentoBolsas: [
                         {
                             programa: 'Bolsa Trabalho',
@@ -1052,7 +1688,6 @@ export default {
                             situacao: 'Cadastrado',
                         },
                     ],
-                    relatorioAcoesExtensionistas: [],
                     levantamentoBolsas: [
                         {
                             programa: 'Bolsa Trabalho',
@@ -1160,7 +1795,6 @@ export default {
                             situacao: 'Cadastrado',
                         },
                     ],
-                    relatorioAcoesExtensionistas: [],
                     levantamentoBolsas: [
                         {
                             programa: 'Bolsa Trabalho',
@@ -1340,7 +1974,6 @@ export default {
                             situacao: 'Cadastrado',
                         },
                     ],
-                    relatorioAcoesExtensionistas: [],
                     levantamentoBolsas: [
                         {
                             programa: 'Bolsa Trabalho',
@@ -1448,7 +2081,6 @@ export default {
                             situacao: 'Cadastrado',
                         },
                     ],
-                    relatorioAcoesExtensionistas: [],
                     levantamentoBolsas: [
                         {
                             programa: 'Bolsa Trabalho',
@@ -1492,7 +2124,6 @@ export default {
                             situacao: 'Cadastrado',
                         },
                     ],
-                    relatorioAcoesExtensionistas: [],
                     levantamentoBolsas: [
                         {
                             programa: 'Bolsa Trabalho',
@@ -1528,7 +2159,6 @@ export default {
                             situacao: 'Cadastrado',
                         },
                     ],
-                    relatorioAcoesExtensionistas: [],
                     levantamentoBolsas: [
                         {
                             programa: 'Bolsa Trabalho',
@@ -1660,7 +2290,6 @@ export default {
                             situacao: 'Cadastrado',
                         },
                     ],
-                    relatorioAcoesExtensionistas: [],
                     levantamentoBolsas: [
                         {
                             programa: 'Bolsa Trabalho',
