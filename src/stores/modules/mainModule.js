@@ -4,6 +4,7 @@ export default {
         cityDialogContent: {},
         citiesContents: {
             piaui: {
+                key: 'piaui',
                 title: 'DADOS DE TODO O ESTADO',
                 subtitle: '',
                 content: {
@@ -643,10 +644,310 @@ export default {
                             situacao: 'EXECUTADA'
                         }
                     ],
+                    servicoDePsicologia:[
+                        {
+                            acoes: 'Atendimentos Psicológicos semanais: 9 atendimentos semanais.',
+                            situacao: 'EM EXECUÇÃO'
+                        },
+                        {
+                            acoes: '*Projeto de Psicoterapia Aconselhamento Psicológico: média de 3 atendimentos ao dia, total de 171 atendimentos realizados até esta data (25/03 a 22/06).',
+                            situacao: 'EXECUTADA'
+                        },
+                        
+                        {
+                            acoes: 'Supervisão da psicóloga para  os  atendimentos realizados pelos estagiários do Serviço : 2 X por semana.',
+                            situacao: 'EM EXECUÇÃO'
+                        },
+                        
+                        {
+                            acoes: 'Live no Instagram com a psicóloga do Serviço sobre “Atividades que podem ser realizadas para evitar o estresse e ansiedade durante a quarentena” ( 26/03/2020, @comunicamayla).',
+                            situacao: 'EM EXECUÇÃO'
+                        },
+                    ],
+                    levantamentoBolsas: {
+                        bolsaTrabalho: {
+                            capital: [
+                                {
+                                    campus: 'CLÓVIS MOURA',
+                                    contemplados: 14
+                                },
+                                {
+                                    campus: 'POETA TORQUATO NETO',
+                                    contemplados: 123
+                                },
+                                {
+                                    campus: 'TOTAL',
+                                    contemplados: 137
+                                }
+                            ],
+                            demaisCampi: [
+                                {
+                                    campus: 'RIO MARATAOAN – BARRAS',
+                                    contemplados: 7
+                                },
+                                {
+                                    campus: 'DOM JOSÉ VÁSQUEZ DIAS – BOM JESUS',
+                                    contemplados: 9
+                                },
+                                {
+                                    campus: 'HERÓIS DO JENIPAPO – CAMPO MAIOR',
+                                    contemplados: 8
+                                },
+                                {
+                                    campus: 'DEPUTADO JESUALDO CAVALCANTI BARROS – CORRENTE',
+                                    contemplados: 19
+                                },
+                                {
+                                    campus: 'DOUTORA JOSEFINA DEMES – FLORIANO',
+                                    contemplados: 11
+                                },
+                                {
+                                    campus: 'PROFESSOR POSSIDÔNIO QUEIROZ – OEIRAS',
+                                    contemplados: 18
+                                },
+                                {
+                                    campus: 'PROFESSOR ALEXANDRE ALVES DE OLIVEIRA – PARNAÍBA',
+                                    contemplados: 11
+                                },
+                                {
+                                    campus: 'PROFESSOR BARROS ARAÚJO – PICOS',
+                                    contemplados: 8
+                                },
+                                {
+                                    campus: 'PROFESSOR ANTÔNIO GIOVANNI ALVES DE SOUSA – PIRIPIRI',
+                                    contemplados: 15
+                                },
+                                {
+                                    campus: 'PROFESSOR ARISTON DIAS LIMA – SÃO RAIMUNDO NONATO',
+                                    contemplados: 11
+                                },
+                                {
+                                    campus: 'CERRADO DO ALTO PARNAÍBA – URUÇUÍ',
+                                    contemplados: 12
+                                },
+                                {
+                                    campus: 'TOTAL',
+                                    contemplados: 129
+                                },
+                            ],
+                            geral: [
+                                {
+                                    campus: 'GERAL',
+                                    contemplados: 266
+                                }
+                            ]
+                        },
+                        auxilioMoradia: {
+                            capital:[
+                                {
+                                    campus: 'TERESINA',
+                                    contemplados: 45
+                                }
+                            ],
+                            demaisCampi: [
+                                {
+                                    campus: 'RIO MARATAOAN – BARRAS',
+                                    contemplados: 24
+                                },
+                                {
+                                    campus: 'DOM JOSÉ VÁSQUEZ DIAS – BOM JESUS',
+                                    contemplados: 12
+                                },
+                                {
+                                    campus: 'HERÓIS DO JENIPAPO – CAMPO MAIOR',
+                                    contemplados: 11
+                                },
+                                {
+                                    campus: 'DEPUTADO JESUALDO CAVALCANTI BARROS – CORRENTE',
+                                    contemplados: 10
+                                },
+                                {
+                                    campus: 'DOUTORA JOSEFINA DEMES – FLORIANO',
+                                    contemplados: 51
+                                },
+                                {
+                                    campus: 'PROFESSOR POSSIDÔNIO QUEIROZ – OEIRAS',
+                                    contemplados: 21
+                                },
+                                {
+                                    campus: 'PROFESSOR ALEXANDRE ALVES DE OLIVEIRA – PARNAÍBA',
+                                    contemplados: 37
+                                },
+                                {
+                                    campus: 'PROFESSOR BARROS ARAÚJO – PICOS',
+                                    contemplados: 45
+                                },
+                                {
+                                    campus: 'PROFESSOR ANTÔNIO GIOVANNI ALVES DE SOUSA – PIRIPIRI',
+                                    contemplados: 14
+                                },
+                                {
+                                    campus: 'PROFESSOR ARISTON DIAS LIMA – SÃO RAIMUNDO NONATO',
+                                    contemplados: 17
+                                },
+                                {
+                                    campus: 'CERRADO DO ALTO PARNAÍBA – URUÇUÍ',
+                                    contemplados: 12
+                                },
+                                {
+                                    campus: 'TOTAL',
+                                    contemplados: 254
+                                },
+                            ],
+                            geral: [
+                                {
+                                    campus: 'GERAL',
+                                    contemplados: 299
+                                },
+                                
+                            ]
+                        },
+                        estagioNaoObrigatorio:{
+                            capital: [
+                                {
+                                    campus: 'TERESINA',
+                                    contemplados: 45
+                                }
+                            ],
+                            demaisCampi: [
+                                {
+                                    campus: 'RIO MARATAOAN – BARRAS',
+                                    contemplados: '-'
+                                },
+                                {
+                                    campus: 'DOM JOSÉ VÁSQUEZ DIAS – BOM JESUS',
+                                    contemplados: '-'
+                                },
+                                {
+                                    campus: 'HERÓIS DO JENIPAPO – CAMPO MAIOR',
+                                    contemplados: 2
+                                },
+                                {
+                                    campus: 'DEPUTADO JESUALDO CAVALCANTI BARROS – CORRENTE',
+                                    contemplados: 5
+                                },
+                                {
+                                    campus: 'DOUTORA JOSEFINA DEMES – FLORIANO',
+                                    contemplados: 3
+                                },
+                                {
+                                    campus: 'PROFESSOR POSSIDÔNIO QUEIROZ – OEIRAS',
+                                    contemplados: '-'
+                                },
+                                {
+                                    campus: 'PROFESSOR ALEXANDRE ALVES DE OLIVEIRA – PARNAÍBA',
+                                    contemplados: 5
+                                },
+                                {
+                                    campus: 'PROFESSOR BARROS ARAÚJO – PICOS',
+                                    contemplados: 1
+                                },
+                                {
+                                    campus: 'PROFESSOR ANTÔNIO GIOVANNI ALVES DE SOUSA – PIRIPIRI',
+                                    contemplados: 4
+                                },
+                                {
+                                    campus: 'PROFESSOR ARISTON DIAS LIMA – SÃO RAIMUNDO NONATO',
+                                    contemplados: 2
+                                },
+                                {
+                                    campus: 'CERRADO DO ALTO PARNAÍBA – URUÇUÍ',
+                                    contemplados: '-'
+                                },
+                                {
+                                    campus: 'TOTAL',
+                                    contemplados: 12
+                                },
+                            ],
+                            geral: [
+                                {
+                                    campus: 'GERAL',
+                                    contemplados: 57
+                                },
+                            ]
+                        },
+                        apoioPedagogico:[
+                            {
+                                cidade: 'TERESINA',
+                                contemplados: 1
+                            },
+                            {
+                                cidade: 'GERAL',
+                                contemplados: 1
+                            }
+                        ],
+                        auxilioAlimentacao: [
+                            {
+                                campus: 'RIO MARATAOAN (BARRAS)',
+                                contemplados: 12
+                            },
+                            {
+                                campus: 'DOM JOSÉ VASQUEZ DIAS (BOM JESUS)',
+                                contemplados: 21
+                            },
+                            {
+                                campus: 'HERÓIS DO JENIPAPO (CAMPO MAIOR)',
+                                contemplados: 38
+                            },
+                            {
+                                campus: 'CAMPUS CLÓVIS MOURA – CCM (TERESINA)',
+                                contemplados: 33
+                            },
+                            {
+                                campus: 'CENTO DE CIÊNCIAS DA SAÚDE – CCS (TERESINA)',
+                                contemplados: 91
+                            },
+                            {
+                                campus: 'DEPUTADO JESUALDO CAVALCANTI BARROS (CORRENTE)',
+                                contemplados: 33
+                            },
+                            {
+                                campus: 'CENTRO DE TECNOLOGIA E URBANISMO – CTU (TERESINA)',
+                                contemplados: 8
+                            },
+                            {
+                                campus: 'DOUTORA JOSEFINA DEMES (FLORIANO)',
+                                contemplados: 118
+                            },
+                            {
+                                campus: 'PROFESSOR POSSIDÔNIO QUEIROZ (OEIRAS)',
+                                contemplados: 38
+                            },
+                            {
+                                campus: 'PROFESSOR ALEXANDRE ALVES DE OLIVEIRA (PARNAÍBA)',
+                                contemplados: 100
+                            },
+                            {
+                                campus: 'PROFESSOR BARROS ARAÚJO (PICOS)',
+                                contemplados: 140
+                            },
+                            {
+                                campus: 'PROFESSOR ANTÔNIO GIOVANNI ALVES DE SOUSA (PIRIPIRI)',
+                                contemplados: 30
+                            },
+                            {
+                                campus: 'PROFESSOR ARISTON DIAS LIMA (SÃO RAIMUNDO NONATO)',
+                                contemplados: 25
+                            },
+                            {
+                                campus: 'POETA TORQUATO NETO (TERESINA)',
+                                contemplados: 135
+                            },
+                            {
+                                campus: 'CERRADO DO ALTO PARNAÍBA (URUÇUÍ)',
+                                contemplados: 55
+                            },
+                            {
+                                campus: 'TOTAL',
+                                contemplados: 877
+                            }
+                        ]
+                    }
                 }
             },
             teresina: {
-                title: 'CAMPUS POETA TORQUATO NETO/TERESINA/CAMPUS CLÓVIS MOURA ',
+                key: 'teresina',
+                title: 'CAMPUS POETA TORQUATO NETO / CAMPUS CLÓVIS MOURA / TERESINA',
                 subtitle: 'ENTRE RIOS',
                 content: {
                     //ok
@@ -1077,6 +1378,7 @@ export default {
                 }
             },
             parnaiba: {
+                key: 'parnaiba',
                 title: 'CAMPUS PROF. ALEXANDRE ALVES DE OLIVEIRA / PARNAÍBA',
                 subtitle: 'TERRITÓRIO: PLANÍCIE LITORÂNEA',
                 content: {
@@ -1306,6 +1608,7 @@ export default {
                 }
             },
             piripiri: {
+                key: 'piripiri',
                 title: 'CAMPUS PROF. ANTÔNIO GIOVANNI ALVES DE SOUSA / PIRIPIRI',
                 subtitle: 'TERRITÓRIO: COCAIS',
                 content: {
@@ -1429,6 +1732,7 @@ export default {
                 }
             },
             barras: {
+                key: 'barras',
                 title: 'CAMPUS BARRAS',
                 subtitle: 'TERRITÓRIO: COCAIS',
                 content: {
@@ -1455,6 +1759,7 @@ export default {
                 }
             },
             campoMaior: {
+                key: 'campoMaior',
                 title: 'CAMPUS HERÓIS DO JENIPAPO/CAMPO MAIOR',
                 subtitle: 'TERRITÓRIO: CARNAÚBAIS',
                 content: {
@@ -1538,6 +1843,7 @@ export default {
                 }
             },
             floriano: {
+                key: 'floriano',
                 title: 'CAMPUS DRA. JOSEFINA DEMES / FLORIANO',
                 subtitle: 'TERRITÓRIO: VALE DOS RIOS PIAUÍ ITAUEIRA',
                 content: {
@@ -1709,6 +2015,7 @@ export default {
                 }
             },
             oeiras: {
+                key: 'oeiras',
                 title: 'CAMPUS POSSIDÔNIO QUEIROZ/OEIRAS',
                 subtitle: 'TERRITÓRIO: VALE DO CANINDÉ',
                 content: {
@@ -1816,6 +2123,7 @@ export default {
                 }
             },
             picos: {
+                key: 'picos',
                 title: 'CAMPUS PROF. BARROS DE ARAÚJO / PICOS',
                 subtitle: 'TERRITÓRIO: VALE DO RIO GUARIBAS',
                 content: {
@@ -1974,6 +2282,53 @@ export default {
                             situacao: 'Cadastrado',
                         },
                     ],
+                    corpoDeDanca:[
+                        {
+                            mes: 'Março',
+                            acoes: 'Montagem e Ensaios para a apresentação do novo  espetáculo do Corpo de Dança/ Planejamento, reorganização e reestruturação das atividades devido ao decreto de isolamento social e suspensão das atividades presenciais.',
+                            situacao: 'Atividades presenciais / Atividades remotas'
+                        },
+                        {
+                            mes: 'Abril',
+                            acoes: 'Montagem e ensaios de novas coreografias para compor o novo espetáculo, de maneira individual, através de vídeo chamadas, comandadas pelo monitor do grupo com o auxílio das redes sociais, nos dias referentes aos encontros do grupo.',
+                            situacao: 'Atividades remotas – atividades desenvolvidas através de vídeo chamadas'
+                        },
+                        {
+                            mes: 'Maio',
+                            acoes: 'As atividades foram trabalhadas através de gravação de vídeos com as seguintes propostas:  Reprodução de coreografias criadas para espetáculo do corpo de dança; Reprodução de célula coreográfica passada pelo monitor do corpo de dança; Criações de coreografias com tema cultura nordestina; Reprodução de célula coreográfica (técnicas de respiração durante dança).',
+                            situacao: 'Atividades remotas – Atividades desenvolvidas por cada integrante de maneira isolada devido a pandemia sob a supervisão e orientação da Coordenadora do grupo, e postadas no Instagram do grupo como meio de  divulgação e visibilidade do grupo.'
+                        },
+                        {
+                            mes: 'Junho',
+                            acoes: 'As atividades foram desenvolvidas com o objetivo de expandir a cultura regional, através de vídeos postados nas redes sociais do grupo como estimulo à comunidade em geral a prática de exercício físico. As atividades foram basicamente: Criação de coreografias com tema: Cultura Nordestina (Capoeira – sequências de movimentos: golpes de defesas e ataque; Sequência de dança estilo livre relacionada a cultura nordestina; Sequência de dança frevo),  Micro- aula de alongamento para melhorar a flexibilidade e o desempenho na dança; Treinamento ritmado – RitBox com fundo musical da cultura nordestina; Construção coreográfica – Tema: Solidão (Executado por todos integrantes do corpo de dança da UESPI.) de maneira isolada e por fim unificada em vídeo.',
+                            situacao: 'Atividades remotas – Atividades desenvolvidas por cada integrante de maneira isolada devido a pandemia sob a supervisão e orientação da Coordenadora do grupo, e postadas no Instagram do grupo como meio de  divulgação e visibilidade do grupo.'
+                        },
+                        {
+                            mes: 'Julho',
+                            acoes: 'Pesquisa em relação a construção de coreografias livres e contagens de tempo; e elaboração de vídeos. Todas as atividades realizadas foram postadas no Instagram do Corpo de Dança da UESPI; Vídeo sobre treinamento ritmado – RitBox com fundo musical da cultura nordestina; reprodução da coreografia- Boneca de pano (referindo-se ao espetáculo do Corpo de Dança da UESPI); Elaboração de vídeos sobre o tema Dança e gravidez.',
+                            situacao: 'Atividades remotas – Atividades desenvolvidas por cada integrante de maneira isolada devido a pandemia sob a supervisão e orientação da Coordenadora do grupo, e postadas no Instagram do grupo como meio de  divulgação e visibilidade do grupo.'
+                        },
+                        {
+                            mes: 'Agosto',
+                            acoes: 'Atividades desenvolvidas através de gravação de vídeos sobre o tema Folclore: foram realizadas pesquisas sobre lendas regionais, contação de histórias – lendas; e construção de coreografias elaborados pelos integrantes representando as Danças folclóricas.',
+                            situacao: 'Atividades remotas – Atividades desenvolvidas por cada integrante de maneira isolada devido a pandemia sob a supervisão e orientação da Coordenadora do grupo, e postadas no Instagram do grupo como meio de  divulgação e visibilidade do grupo.'
+                        },
+                        {
+                            mes: 'Setembro',
+                            acoes: 'Cada semana um integrante elaborou uma atividade com ligação ao movimento e a cultura e tratava-a como um desafio, através das redes sociais “marcou” alguém conhecido e o desafiaria a reproduzir tal coreografia. Tais atividades foram através de vídeos postados no Instagram do corpo de dança da UESPI como forma de divulgação do trabalho dos integrantes para a comunidade em geral. No final do mês o monitor do grupo realizou uma montagem de coreografia/ aula voltada para o público em geral uma contribuição dos integrantes do grupo  e interação com o público em geral no qual o objetivo foi de desenvolver ainda mais a criatividade na montagem e elaboração de coreografias e auxiliando a população na prática de relaxamento para ser realizada em casa devido ao momento atual.',
+                            situacao: 'Atividades remotas – Atividades desenvolvidas por cada integrante de maneira isolada devido a pandemia sob a supervisão e orientação da Coordenadora do grupo, e postadas no Instagram do grupo como meio de  divulgação e visibilidade do grupo.'
+                        },
+                        {
+                            mes: 'Outubro',
+                            acoes: 'Neste mês os integrantes do grupo pesquisaram e elaboraram conteúdos incentivando a prática de exercício físico enfatizando a importância do mesmo para a saúde. Cada dia de atividade referente ao dia de ensaio, um membro se responsabilizava pela publicação. Foram gravados vídeos e postados nas redes sociais para tal divulgação e incentivo.',
+                            situacao: 'Atividades remotas – Atividades desenvolvidas por cada integrante de maneira isolada devido a pandemia sob a supervisão e orientação da Coordenadora do grupo, e postadas no Instagram do grupo como meio de  divulgação e visibilidade do grupo.'
+                        },
+                        {
+                            mes: 'Novembro',
+                            acoes: 'A atividade do mês foi a elaboração e gravação de tutorias de coreografias já postadas no Instagram, coreografias essa que já foram apresentadas pelo corpo de dança da UESPI em eventos culturais. Cada integrante do Corpo de Dança teve um dia específico para postar a sua atividade. Os tutoriais tiveram o objetivo de  recordar e permitiram as pessoas que apreciassem a dança e as coreografias do grupo estarem aprendendo e praticando.',
+                            situacao: 'Atividades remotas – Atividades desenvolvidas por cada integrante de maneira isolada devido a pandemia sob a supervisão e orientação da Coordenadora do grupo, e postadas no Instagram do grupo como meio de  divulgação e visibilidade do grupo.'
+                        },
+                    ],
                     levantamentoBolsas: [
                         {
                             programa: 'Bolsa Trabalho',
@@ -1995,6 +2350,7 @@ export default {
                 }
             },
             urucui: {
+                key: 'urucui',
                 title: 'CERRADO DO ALTO DO PARNAÍBA/CAMPUS URUCUÍ',
                 subtitle: 'TERRITÓRIO: TABULEIROS DO ALTO PARNAÍBA',
                 content: {
@@ -2102,6 +2458,7 @@ export default {
                 }
             },
             bomJesus: {
+                key: 'bomJesus',
                 title: 'CAMPUS DOM JOSÉ DE VÁSQUEZ DIAZ/BOM JESUS',
                 subtitle: 'TERRITÓRIO: CHAPADA DA MANGABEIRA',
                 content: {
@@ -2145,6 +2502,7 @@ export default {
                 }
             },
             saoRaimundoNonato: {
+                key: 'saoRaimundoNonato',
                 title: 'CAMPUS PROF. ARISTON DIAS LIMA/SÃO RAIMUNDO NONATO',
                 subtitle: 'TERRITÓRIO: SERRA DA CAPIVARA',
                 content: {
@@ -2180,6 +2538,7 @@ export default {
                 }
             },
             corrente: {
+                key: 'corrente',
                 title: 'CAMPUS DEP. JESUALDO CAVALCANTI BARROS/CORRENTE',
                 subtitle: 'TERRITÓRIO: CHAPADA DA MANGABEIRA',
                 content: {

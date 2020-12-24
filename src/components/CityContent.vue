@@ -17,6 +17,11 @@
         <span class="leftSpan">Ações<br />Extensionistas</span>
         <v-spacer></v-spacer>
       </v-tab>
+      <v-tab v-if="cityDialogContent.key == 'picos'">
+        <v-icon left> mdi-information- </v-icon>
+        <span class="leftSpan">Corpo<br />de Dança</span>
+        <v-spacer></v-spacer>
+      </v-tab>
       <v-tab>
         <v-icon left> mdi-information- </v-icon>
         <span class="leftSpan">Levantamento<br />de Bolsas</span>
@@ -26,11 +31,21 @@
         <v-card flat>
           <v-data-table
             :headers="
-              cityDialogContent.subtitle == 'ENTRE RIOS'
+              cityDialogContent.key == 'teresina'
                 ? headers_01_teresina
                 : headers_01
             "
             :items="cityDialogContent.content.acoesExtensionistas"
+            :items-per-page="5"
+            class="elevation-1"
+          ></v-data-table>
+        </v-card>
+      </v-tab-item>
+      <v-tab-item v-if="cityDialogContent.key == 'picos'">
+        <v-card flat>
+          <v-data-table
+            :headers="headers_danca_picos"
+            :items="cityDialogContent.content.corpoDeDanca"
             :items-per-page="5"
             class="elevation-1"
           ></v-data-table>
@@ -114,6 +129,16 @@ export default {
       { text: "Programas/Projetos", value: "projetos" },
       { text: "Coordenador(a)", value: "coordenador" },
       { text: "Situação", value: "situacao" },
+    ],
+    headers_danca_picos: [
+      {
+        text: "Mês",
+        align: "start",
+        sortable: false,
+        value: "mes"
+      },
+      { text: "Ações", sortable: false, value: "acoes" },
+      { text: "Situação", sortable: false, value: "situacao" }
     ],
     headers_02: [
       {
