@@ -2,7 +2,12 @@
   <v-container>
     <v-row style="margin-top: 3%">
       <v-col cols="12">
-        <h1>Boletim Virtual PREX 2020</h1>
+        <h1>
+          Boletim Virtual PREX 2020
+          <v-btn @click="showJustificativaDialog" class="mb-2" icon dark
+            ><v-icon>mdi-information</v-icon></v-btn
+          >
+        </h1>
       </v-col>
       <v-col cols="12">
         <v-btn
@@ -39,7 +44,7 @@ export default {
     CityContentEstado,
   },
   computed: {
-    ...mapGetters(["CITY_DIALOG_CONTENT"]),
+    ...mapGetters(["CITY_DIALOG_CONTENT", "JUSTIFICATIVA_DIALOG_CONTENT"]),
     dialog: function () {
       return this.$store.state.main.cityDialog;
     },
@@ -55,11 +60,16 @@ export default {
       },
     },
   },
-  data: () => ({}),
+  data: () => ({
+    showDialog: false,
+  }),
   methods: {
     changeDialogEstado(piaui) {
       this.$store.commit("SHOW_TOGGLE_CITY_DIALOG");
       this.cityDialogContent = piaui;
+    },
+    showJustificativaDialog() {
+      this.$store.commit("SHOW_TOGGLE_JUSTIFICATIVA_DIALOG");
     },
   },
 };

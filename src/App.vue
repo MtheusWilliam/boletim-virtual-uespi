@@ -1,33 +1,42 @@
 <template>
   <v-app id="app">
     <v-main>
-      <Presentation :changeContent="changeContent" v-if="presentationShow"/>
-      <Content v-else/>
+      {{ dialog }}
+      <Justificativa />
+      <Presentation :changeContent="changeContent" v-if="presentationShow" />
+      <Content v-else />
     </v-main>
   </v-app>
 </template>
 
 <script>
-import Presentation from './components/Presentation.vue'
-import Content from './components/Content.vue'
+import Presentation from "./components/Presentation.vue";
+import Content from "./components/Content.vue";
+import Justificativa from "./components/Justificativa.vue";
 //#0077BD
 //#019CFF
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Presentation,
-    Content
+    Content,
+    Justificativa,
+  },
+  computed: {
+    dialog: function () {
+      return this.$store.state.justificativaDialog;
+    },
   },
   data: () => ({
-    presentationShow: true
+    presentationShow: true,
   }),
   methods: {
-    changeContent(){
-      this.presentationShow = false
-    }
-  }
-}
+    changeContent() {
+      this.presentationShow = false;
+    },
+  },
+};
 </script>
 
 <style>
@@ -37,11 +46,19 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background: rgb(0,119,189);
-  background: linear-gradient(147deg, rgba(0,119,189,1) 13%, rgba(1,156,255,1) 100%);
+  background: rgb(0, 119, 189);
+  background: linear-gradient(
+    147deg,
+    rgba(0, 119, 189, 1) 13%,
+    rgba(1, 156, 255, 1) 100%
+  );
 }
-.degrade{
-  background: rgb(0,119,189);
-  background: linear-gradient(147deg, rgba(0,119,189,1) 13%, rgba(1,156,255,1) 100%);
+.degrade {
+  background: rgb(0, 119, 189);
+  background: linear-gradient(
+    147deg,
+    rgba(0, 119, 189, 1) 13%,
+    rgba(1, 156, 255, 1) 100%
+  );
 }
 </style>

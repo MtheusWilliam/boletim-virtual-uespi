@@ -1,5 +1,6 @@
 export default {
     state: {
+        justificativaDialog: true,
         cityDialog: false,
         cityDialogContent: {},
         citiesContents: {
@@ -644,7 +645,7 @@ export default {
                             situacao: 'EXECUTADA'
                         }
                     ],
-                    servicoDePsicologia:[
+                    servicoDePsicologia: [
                         {
                             acoes: 'Atendimentos Psicológicos semanais: 9 atendimentos semanais.',
                             situacao: 'EM EXECUÇÃO'
@@ -653,12 +654,12 @@ export default {
                             acoes: '*Projeto de Psicoterapia Aconselhamento Psicológico: média de 3 atendimentos ao dia, total de 171 atendimentos realizados até esta data (25/03 a 22/06).',
                             situacao: 'EXECUTADA'
                         },
-                        
+
                         {
                             acoes: 'Supervisão da psicóloga para  os  atendimentos realizados pelos estagiários do Serviço : 2 X por semana.',
                             situacao: 'EM EXECUÇÃO'
                         },
-                        
+
                         {
                             acoes: 'Live no Instagram com a psicóloga do Serviço sobre “Atividades que podem ser realizadas para evitar o estresse e ansiedade durante a quarentena” ( 26/03/2020, @comunicamayla).',
                             situacao: 'EM EXECUÇÃO'
@@ -738,7 +739,7 @@ export default {
                             ]
                         },
                         auxilioMoradia: {
-                            capital:[
+                            capital: [
                                 {
                                     campus: 'TERESINA',
                                     contemplados: 45
@@ -799,10 +800,10 @@ export default {
                                     campus: 'GERAL',
                                     contemplados: 299
                                 },
-                                
+
                             ]
                         },
-                        estagioNaoObrigatorio:{
+                        estagioNaoObrigatorio: {
                             capital: [
                                 {
                                     campus: 'TERESINA',
@@ -866,7 +867,7 @@ export default {
                                 },
                             ]
                         },
-                        apoioPedagogico:[
+                        apoioPedagogico: [
                             {
                                 cidade: 'TERESINA',
                                 contemplados: 1
@@ -2282,7 +2283,7 @@ export default {
                             situacao: 'Cadastrado',
                         },
                     ],
-                    corpoDeDanca:[
+                    corpoDeDanca: [
                         {
                             mes: 'Março',
                             acoes: 'Montagem e Ensaios para a apresentação do novo  espetáculo do Corpo de Dança/ Planejamento, reorganização e reestruturação das atividades devido ao decreto de isolamento social e suspensão das atividades presenciais.',
@@ -2674,6 +2675,9 @@ export default {
     getters: {
         CITY_DIALOG_CONTENT: state => {
             return state.cityDialogContent;
+        },
+        JUSTIFICATIVA_DIALOG_CONTENT: state => {
+            return state.justificativaDialog;
         }
     },
     mutations: {
@@ -2682,6 +2686,12 @@ export default {
         },
         HIDE_TOGGLE_CITY_DIALOG(state) {
             state.cityDialog = false;
+        },
+        SHOW_TOGGLE_JUSTIFICATIVA_DIALOG(state) {
+            state.justificativaDialog = true;
+        },
+        HIDE_TOGGLE_JUSTIFICATIVA_DIALOG(state) {
+            state.justificativaDialog = false;
         },
         SET_CITY_DIALOG_CONTENT(state, { city }) {
             state.cityDialogContent = city;
