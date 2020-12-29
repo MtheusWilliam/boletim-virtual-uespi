@@ -1738,7 +1738,16 @@ export default {
                 subtitle: 'TERRITÓRIO: COCAIS',
                 content: {
                     //ok
-                    acoesExtensionistas: [],
+                    acoesExtensionistas: [
+                        {
+                            curso: '-',
+                            areas: '-',
+                            tipo: '-',
+                            projetos: '-',
+                            coordenador: '-',
+                            situacao: '-'
+                        }
+                    ],
                     levantamentoBolsas: [
                         {
                             programa: 'Bolsa Trabalho',
